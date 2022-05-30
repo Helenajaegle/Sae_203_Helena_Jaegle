@@ -1,17 +1,12 @@
 <template>
-  <header>
-    <nav>
 
-    </nav>
-  </header>
-
-  <RouterView />
+    <router-view/>
+ 
+  <footer class="bottom-0">
+    <footer-view class="bottom-0"></footer-view>
+  </footer>
 </template>
 
 <script>
-import IconLogo from "./components/icons/IconLogo.vue";
-import { FilmIcon } from "@heroicons/vue/outline";
-export default {
-  components: { IconLogo, FilmIcon },
-};
+import AccueilView from "./views/AccueilView.vue";
 </script>
