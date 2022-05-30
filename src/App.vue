@@ -2,11 +2,12 @@
 
     <router-view/>
  
-  <footer class="bottom-0">
-    <footer-view class="bottom-0"></footer-view>
-  </footer>
 </template>
 
 <script>
 import AccueilView from "./views/AccueilView.vue";
+import ProgrammationView from "./views/ProgrammationView.vue";
+import FestivalView from "./views/FestivalView.vue";
+import ConcertsView from "./views/ConcertsView.vue";
+import BilleterieView from "./views/BilleterieView.vue";
 </script>
