@@ -1,9 +1,12 @@
 <template>
-    <div class="flex items-center m-14 text-black">
-      <RouterLink to="/accueil"><p class="text-2xl font-bold uppercase text-center bg-white rounded-full p-6">Accueil</p></RouterLink>
-      <RouterLink to="/programmation"><p class="text-2xl font-bold uppercase text-center bg-white rounded-full p-6">Programmation</p></RouterLink>
-      <RouterLink to="/concerts"><p class="text-2xl font-bold uppercase text-center bg-white rounded-full p-6">Concerts</p></RouterLink>
-      <RouterLink to="/festival"><p class="text-2xl font-bold uppercase text-center bg-white rounded-full p-6">Festival</p></RouterLink>
+    <div class="flex items-center m-14 text-white">
+      <RouterLink to="/accueil"><p class="text-2xl uppercase text-center m-5">Accueil</p></RouterLink>
+      <p>|</p>
+      <RouterLink to="/programmation"><p class="text-2xl uppercase text-center m-5">Programmation</p></RouterLink>
+      <p>|</p>
+      <RouterLink to="/concerts"><p class="text-2xl uppercase text-center m-5">Concerts</p></RouterLink>
+      <p>|</p>
+      <RouterLink to="/festival"><p class="text-2xl uppercase text-center m-5">Festival</p></RouterLink>
     </div>
 
     <img class="w-full m-0" src="../assets/Medias/fond_montagne.png" alt="Fond_montagne">
