@@ -1,9 +1,8 @@
 <template>
   <div
     class="
-      bg-transparent
-      text-indigo-500
-      border-2 border-indigo-500
+      bg-white
+      text-black
       font-bold
       w-5/6
       py-3
@@ -17,9 +16,10 @@
       items-start
       justify-center
       active:bg-black active:bg-opacity-25 active:text-black active:border-black
-      hover:bg-indigo-500 hover:bg-opacity-25
+      hover:bg-gr hover:bg-opacity-25
+    
     "
   >
-    <slot />
+   En savoir plus <slot />
   </div>
 </template>

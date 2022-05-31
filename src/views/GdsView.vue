@@ -1,0 +1,86 @@
+<template>
+  <div class="text-white">
+    <div class="flex flex-col items-center justify-center px-8 py-10 text-center">
+      <h1 class="font-press-start-2p text-3xl text-white uppercase">Guide de style</h1>
+      <ArquestPremium />
+    </div>
+    <!-- Couleurs -->
+    <h1 class="bg-blue-900 p-2 text-center text-2xl text-white">Couleurs</h1>
+    <div class="m-2 flex flex-row items-center justify-center py-6 sm:flex-col">
+      <div class="flex flex-col justify-center gap-5 p-3 sm:flex-row">
+        <span class="h-10 w-20 bg-white"></span>
+        <span class="h-10 w-20 bg-purple-500"></span>
+        <span class="h-10 w-20 bg-orange-500"></span>
+        <span class="h-10 w-20 bg-indigo-400"></span>
+      </div>
+    </div>
+    <!-- Typographie -->
+    <h1 class="bg-blue-900 p-2 text-center text-2xl text-white">Typographie</h1>
+    <div class="m-2 flex flex-col items-center gap-5 py-6 text-center text-white">
+      <h1 class="text-4xl font-aclonica font-bold">Alpin Days</h1>
+      <h2 class="text-2xl font-raleway">Programmation</h2>
+      <h3 class="text-xl font-roboto">Contenu</h3>
+    </div>
+    <!-- Icônes -->
+    <h1 class="bg-blue-900 p-2 text-center text-2xl text-white">Icônes</h1>
+    <div class="flex justify-center gap-10 fill-white">
+      <div>
+        <div class="flex justify-center gap-2 p-2">
+        <div class="flex justify-center gap-2 p-2">
+          <YoutubeIcon class="h-9 w-9" />
+          <InstagramIcon class="h-9 w-9" />
+          <TwitterIcon class="h-9 w-9" />
+        </div>
+      </div>
+    </div>
+</div>
+    <!-- Composants -->
+    <h1 class="bg-blue-900 p-2 text-center text-2xl text-white">Composants</h1>
+    <div>
+      <h2 class="p-2 font-roboto text-2xl font-bold">Les boutons</h2>
+      <div>
+        <router-link to="/">
+          <Bouton>En savoir plus</Bouton>
+        </router-link>
+      </div>
+      <div>
+        <h2 class="p-2 font-roboto text-2xl font-bold">Les layouts</h2>
+        <FooterView class="mt-5 mb-5" />
+      </div>
+      <div class="p-3">
+        <h2 class="p-2 font-roboto text-2xl font-bold text-white">Les composants des pages</h2>
+        <h3 class="font-roboto text-xl font-bold text-white">Accueil</h3>
+        <h2 class="p-2 font-roboto text-2xl font-bold text-white">Les overlays</h2>
+
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+import {
+  ArrowCircleDownIcon,
+  ChevronDoubleUpIcon, 
+} from "@heroicons/vue/outline";
+
+import InstagramIcon from "../components/icons/InstagramIcon.vue";
+import TwitterIcon from "../components/icons/TwitterIcon.vue";
+import YoutubeIcon from "../components/icons/YoutubeIcon.vue";
+
+import Bouton from "../components/Boutons/BoutonView.vue";
+
+import FooterView from "../components/Layout/FooterView.vue";
+
+
+export default {
+  name: "GuideStyle",
+  components: {
+    InstagramIcon,
+    TwitterIcon,
+    YoutubeIcon,
+    ChevronDoubleUpIcon, 
+},
+};
+</script>
+
+<style></style>
