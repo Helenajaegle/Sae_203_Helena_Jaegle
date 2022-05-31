@@ -4,7 +4,6 @@
       <RouterLink to="/programmation"><p class="text-2xl font-light uppercase">Programmation</p></RouterLink>
       <RouterLink to="/concerts"><p class="text-2xl font-light uppercase">Concerts</p></RouterLink>
       <RouterLink to="/festival"><p class="text-2xl font-light uppercase">Festival</p></RouterLink>
-      <RouterLink to="/billeterie"><p class="text-2xl font-light uppercase">Billeterie</p></RouterLink>
     </div>
 
     <h2 class="text-5xl text-left font-bold ml-16 mt-20 text-white uppercase">Mentions légales</h2>
