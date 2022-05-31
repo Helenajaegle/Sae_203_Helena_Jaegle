@@ -38,7 +38,7 @@
       <h1 class="bg-blue-900 p-2 text-center text-2xl text-white">Composants</h1>
           <div class="flex justify-center items-center m-10">
             <Bouton></Bouton>
-            <Footer></Footer>
+            <FooterView></FooterView>
           </div>
       </div>
       
