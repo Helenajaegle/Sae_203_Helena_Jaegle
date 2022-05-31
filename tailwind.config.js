@@ -8,12 +8,6 @@ module.exports = {
 
   theme: {
     extend: {
-      "colors": {
-        "orange": "#FF961B",
-        "indigo": "#7879F1",
-        "purple": "#BE9FFE",
-      },
-
       "fontFamily": {
         "aclonica": ["'Aclonica'", "sansserif"],
         "raleway": ["'Raleway', sans-serif;"],

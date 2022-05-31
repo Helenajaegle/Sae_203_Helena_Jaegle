@@ -41,6 +41,7 @@
     <div class="text-white ml-10 text-2xl">
       <RouterLink to="/mentions"><p>Mentions légales</p></RouterLink>
       <RouterLink to="/contact"><p>Contact</p></RouterLink>
+      <RouterLink to="/gds"><p>Guide de style</p></RouterLink>
     </div>
 
     <div class="flex float-right mr-12">

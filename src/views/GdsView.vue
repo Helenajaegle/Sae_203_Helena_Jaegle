@@ -1,4 +1,16 @@
 <template>
+  <div class="flex items-center m-10 text-white">
+      <RouterLink to="/accueil"><p class="text-2xl uppercase text-center m-5 hover:font-bold">Accueil</p></RouterLink>
+      <p>|</p>
+      <RouterLink to="/programmation"><p class="text-2xl uppercase text-center m-5 hover:font-bold">Programmation</p></RouterLink>
+      <p>|</p>
+      <RouterLink to="/concerts"><p class="text-2xl uppercase text-center m-5 hover:font-bold">Concerts</p></RouterLink>
+      <p>|</p>
+      <RouterLink to="/festival"><p class="text-2xl uppercase text-center m-5 hover:font-bold">Festival</p></RouterLink>
+    </div>
+
+  <div class="bg-white p-2"></div>
+
   <div class="text-white">
     <div class="flex flex-col items-center justify-center px-8 py-10 text-center">
       <h1 class="font-press-start-2p text-3xl text-white uppercase">Guide de style</h1>
