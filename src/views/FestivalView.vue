@@ -1,22 +1,27 @@
 <template>
-    <div class="flex items-center justify-between m-8 text-white">
-      <RouterLink to="/accueil"><p>Accueil</p></RouterLink>
-      <RouterLink to="/programmation"><p>Programmation</p></RouterLink>
-      <RouterLink to="/concerts"><p>Concerts</p></RouterLink>
-      <RouterLink to="/festival"><p>Festival</p></RouterLink>
-      <RouterLink to="/billeterie"><p>Billeterie</p></RouterLink>
+    <div class="flex items-center justify-between m-11 text-white">
+      <RouterLink to="/accueil"><p class="text-2xl font-light uppercase">Accueil</p></RouterLink>
+      <RouterLink to="/programmation"><p class="text-2xl font-light uppercase">Programmation</p></RouterLink>
+      <RouterLink to="/concerts"><p class="text-2xl font-light uppercase">Concerts</p></RouterLink>
+      <RouterLink to="/festival"><p class="text-2xl font-light uppercase">Festival</p></RouterLink>
+      <RouterLink to="/billeterie"><p class="text-2xl font-light uppercase">Billeterie</p></RouterLink>
     </div>
 
-    <img src="../assets/Medias/fond_festival.png" alt="fond festival">
+    <img class="w-full m-0" src="../assets/Medias/fond_festival.png" alt="fond festival">
 
     <arrow-circle-down-icon class="flex items-center justify-center h-8 w-8 stroke-white "/> 
 
-    <div class="text-white text-center">
-        <h1>L'histoire du festival</h1>
-        <p>Fidèle à son esprit festif et original, Alpindays se positionne et s’illustre comme un moment d’évasion et de dépaysement au plein milieu de la montagne.</p>
-        <p>Depuis 4 ans seulement, ce sont déjà 687 concerts revendiqué, ayant fait le plaisir de près de 213.000 festivaliers, de tous âges, tous horizons et de toutes nationalités !  </p>
-        <h1>Courchvel</h1>
-        <p>Niché au coeur de la station de ski, le festival offre une vue imprenable sur les Alpes. Isolé de la ville, vous vous couperez du reste du bon le temps d’un moment.</p>
+    <div class="text-white">
+      <h1 class="text-5xl font-bold text-center m-5">L'histoire du festival</h1>
+
+      <div class="flex">
+        <img class="objet-cover w-full m-0" src="../assets/Medias/forme_orange.png" alt="Forme orange">
+        <p class="text-2xl text-center mt-52 absolute">Fidèle à son esprit festif et original, Alpindays se positionne et s’illustre comme un moment d’évasion et de dépaysement au plein milieu de la montagne.</p>
+      </div>
+
+        <p class="text-2xl text-center m-5">Depuis 4 ans seulement, ce sont déjà 687 concerts revendiqué, ayant fait le plaisir de près de 213.000 festivaliers, de tous âges, tous horizons et de toutes nationalités !  </p>
+        <h1 class="text-5xl font-bold text-left m-20">Courchvel</h1>
+        <p class="text-2xl text-center m-5">Niché au coeur de la station de ski, le festival offre une vue imprenable sur les Alpes. Isolé de la ville, vous vous couperez du reste du bon le temps d’un moment.</p>
     </div>
 
     <div class="flex flex-wrap justify-between m-10">
@@ -25,9 +30,9 @@
     </div>
 
     <div class="text-white text-center">
-        <p>Le festival propose une ambiance décalée et moderne, où de nombreuses activités seront à la disposition des visiteurs. Grande roue, tyrolienne, structures gonflables seront à votre disposition
+        <p class="text-2xl m-20">Le festival propose une ambiance décalée et moderne, où de nombreuses activités seront à la disposition des visiteurs. Grande roue, tyrolienne, structures gonflables seront à votre disposition
         (* tarifs supplémentaires s’appliquant).</p>
-        <p>Depuis 2 ans maintenant le festival organise un défilé le dernier jour du festival. Venez admirez les nombreux chars plus impressionnants les uns que les autres ! </p>
+        <p class="text-2xl m-20">Depuis 2 ans maintenant le festival organise un défilé le dernier jour du festival. Venez admirez les nombreux chars plus impressionnants les uns que les autres ! </p>
     </div>
 
     <div class="flex flex-wrap justify-between m-20">
@@ -47,8 +52,8 @@
 
      <footer>
     <div class="text-white ml-10 text-2xl">
-      <p>Mentions légales</p>
-      <p>Contact</p>
+      <RouterLink to="/mentions"><p>Mentions légales</p></RouterLink>
+      <RouterLink to="/contact"><p>Contact</p></RouterLink>
     </div>
 
     <div class="flex float-right mr-12">

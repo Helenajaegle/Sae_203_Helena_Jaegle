@@ -1,19 +1,20 @@
 <template>
-    <div class="flex items-center justify-between m-8 text-white">
-      <RouterLink to="/accueil"><p>Accueil</p></RouterLink>
-      <RouterLink to="/programmation"><p>Programmation</p></RouterLink>
-      <RouterLink to="/infos"><p>Concerts</p></RouterLink>
-      <RouterLink to="/festival"><p>Festival</p></RouterLink>
-      <RouterLink to="/billeterie"><p>Billeterie</p></RouterLink>
+    <div class="flex items-center justify-between m-11 text-white">
+      <RouterLink to="/accueil"><p class="text-2xl font-light uppercase">Accueil</p></RouterLink>
+      <RouterLink to="/programmation"><p class="text-2xl font-light uppercase">Programmation</p></RouterLink>
+      <RouterLink to="/concerts"><p class="text-2xl font-light uppercase">Concerts</p></RouterLink>
+      <RouterLink to="/festival"><p class="text-2xl font-light uppercase">Festival</p></RouterLink>
+      <RouterLink to="/billeterie"><p class="text-2xl font-light uppercase">Billeterie</p></RouterLink>
     </div>
 
-    <img src="../assets/Medias/Frame 67.png" alt="fond montagne">
-
-  <div class="flex items-center justify-center flex-col p-10">
-    <img src="../assets/Medias/logo_petit.png" alt="Logo">
-    <h1 class="text-white">Alpin Days</h1>
-    <p class="text-white">24 - 25 - 26 juillet 2022  -  Courchevel</p>
-  </div>
+    <div class="flex">
+      <img class="w-full m-0" src="../assets/Medias/Frame 67.png" alt="fond montagne">
+      <div class="flex items-center justify-center flex-col p-10">
+        <img src="../assets/Medias/logo_petit.png" alt="Logo">
+        <h1 class="text-white">Alpin Days</h1>
+        <p class="text-white">24 - 25 - 26 juillet 2022  -  Courchevel</p>
+      </div>
+    </div>
     
   <div class="flex items-center justify-between m-8">
     <div class="flex items-center">
@@ -38,8 +39,8 @@
 
   <footer>
     <div class="text-white ml-10 text-2xl">
-      <p>Mentions légales</p>
-      <p>Contact</p>
+      <RouterLink to="/mentions"><p>Mentions légales</p></RouterLink>
+      <RouterLink to="/contact"><p>Contact</p></RouterLink>
     </div>
 
     <div class="flex float-right mr-12">
