@@ -1,9 +1,12 @@
 <template>
-    <div class="flex items-center justify-between m-11 text-white">
-      <RouterLink to="/accueil"><p class="text-2xl font-light uppercase">Accueil</p></RouterLink>
-      <RouterLink to="/programmation"><p class="text-2xl font-light uppercase">Programmation</p></RouterLink>
-      <RouterLink to="/concerts"><p class="text-2xl font-light uppercase">Concerts</p></RouterLink>
-      <RouterLink to="/festival"><p class="text-2xl font-light uppercase">Festival</p></RouterLink>
+   <div class="flex items-center m-10 text-white">
+      <RouterLink to="/accueil"><p class="text-2xl uppercase text-center m-5 hover:font-bold">Accueil</p></RouterLink>
+      <p>|</p>
+      <RouterLink to="/programmation"><p class="text-2xl uppercase text-center m-5 hover:font-bold">Programmation</p></RouterLink>
+      <p>|</p>
+      <RouterLink to="/concerts"><p class="text-2xl uppercase text-center m-5 hover:font-bold">Concerts</p></RouterLink>
+      <p>|</p>
+      <RouterLink to="/festival"><p class="text-2xl uppercase text-center m-5 hover:font-bold">Festival</p></RouterLink>
     </div>
 
   <div class="h-96">
