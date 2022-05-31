@@ -11,8 +11,8 @@ module.exports = {
 
       "fontFamily": {
         "aclonica": ["'Aclonica'", "sansserif"],
-        "raleway": ["Raleway", "sansserif"],
-        "mulish": ["Mulish", "sansserif"]
+        "raleway": ["'Raleway', sans-serif;"],
+        "mulish": ["'Mulish', sans-serif;"]
       },
     },
     plugins: [],

@@ -35,26 +35,14 @@
     </div>
 </div>
     <!-- Composants -->
-    <h1 class="bg-blue-900 p-2 text-center text-2xl text-white">Composants</h1>
-    <div>
-      <h2 class="p-2 font-roboto text-2xl font-bold">Les boutons</h2>
-      <div>
-        <router-link to="/">
-          <Bouton>En savoir plus</Bouton>
-        </router-link>
+      <h1 class="bg-blue-900 p-2 text-center text-2xl text-white">Composants</h1>
+          <div class="flex justify-center items-center m-10">
+            <Bouton></Bouton>
+            <Footer></Footer>
+          </div>
       </div>
-      <div>
-        <h2 class="p-2 font-roboto text-2xl font-bold">Les layouts</h2>
-        <FooterView class="mt-5 mb-5" />
-      </div>
-      <div class="p-3">
-        <h2 class="p-2 font-roboto text-2xl font-bold text-white">Les composants des pages</h2>
-        <h3 class="font-roboto text-xl font-bold text-white">Accueil</h3>
-        <h2 class="p-2 font-roboto text-2xl font-bold text-white">Les overlays</h2>
+      
 
-      </div>
-    </div>
-  </div>
 </template>
 
 <script>
@@ -79,6 +67,8 @@ export default {
     TwitterIcon,
     YoutubeIcon,
     ChevronDoubleUpIcon, 
+    Bouton, 
+    FooterView,
 },
 };
 </script>
