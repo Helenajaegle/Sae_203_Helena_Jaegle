@@ -6,8 +6,11 @@
       <RouterLink to="/festival"><p class="text-2xl font-light uppercase">Festival</p></RouterLink>
     </div>
 
+    <div class="bg-imb w-screen h-screen bg-contain bg-no-repeat">
+        <p class="text-2xl text-white">Alpin Days</p>
+    </div>
+
     <div class="flex">
-      <img class="w-full m-0" src="../assets/Medias/Frame 67.png" alt="fond montagne">
       <div class="flex items-center justify-center flex-col p-10">
         <img src="../assets/Medias/logo_petit.png" alt="Logo">
         <h1 class="text-white">Alpin Days</h1>

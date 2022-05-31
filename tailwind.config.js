@@ -7,10 +7,9 @@ module.exports = {
 
   theme: {
     extend: {
-
-
       backgroundImage: {
-        'imb': "url('/Medias/fond-billeterie.png')",
+        'imb': "url('/Medias/Fond_montagne.png')",
+        'imb': "url('/Medias/Fond_programmation.png')",
       },
     },
     plugins: [],
