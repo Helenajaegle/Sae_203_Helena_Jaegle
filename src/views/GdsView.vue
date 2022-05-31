@@ -30,6 +30,11 @@
           <YoutubeIcon class="h-9 w-9" />
           <InstagramIcon class="h-9 w-9" />
           <TwitterIcon class="h-9 w-9" />
+          <ChevronDoubleUpIcon class="h-9 w-9" />
+          <ArrowCircleDownIcon class="h-9 w-9" />
+          <XIcon class="h-9 w-9" />
+          <CalendarIcon class="h-9 w-9" />
+          <LocationMarkerIcon class="h-9 w-9" />
         </div>
       </div>
     </div>
@@ -38,7 +43,6 @@
       <h1 class="bg-blue-900 p-2 text-center text-2xl text-white">Composants</h1>
           <div class="flex justify-center items-center m-10">
             <Bouton></Bouton>
-            <FooterView></FooterView>
           </div>
       </div>
       
@@ -49,11 +53,15 @@
 import {
   ArrowCircleDownIcon,
   ChevronDoubleUpIcon, 
+  XIcon,
+  CalendarIcon,
+  LocationMarkerIcon,
 } from "@heroicons/vue/outline";
 
 import InstagramIcon from "../components/icons/InstagramIcon.vue";
 import TwitterIcon from "../components/icons/TwitterIcon.vue";
 import YoutubeIcon from "../components/icons/YoutubeIcon.vue";
+
 
 import Bouton from "../components/Boutons/BoutonView.vue";
 
@@ -69,6 +77,10 @@ export default {
     ChevronDoubleUpIcon, 
     Bouton, 
     FooterView,
+    ArrowCircleDownIcon,
+    XIcon,
+    CalendarIcon,
+    LocationMarkerIcon,
 },
 };
 </script>
