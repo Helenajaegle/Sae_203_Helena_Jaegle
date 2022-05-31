@@ -6,24 +6,35 @@
       <RouterLink to="/festival"><p class="text-2xl font-light uppercase">Festival</p></RouterLink>
     </div>
 
-    <img class="w-full m-0" src="../assets/Medias/fond_festival.png" alt="fond festival">
+    <div class="h-96">
+      <img class="w-full m-0" src="../assets/Medias/fond_festival.png" alt="fond festival">
+    </div>
 
-    <arrow-circle-down-icon class="flex items-center justify-center h-8 w-8 stroke-white "/> 
+    <h1 class="text-white text-9xl font-bold m-44">Le festival</h1>
+
+    <div class="flex justify-center items-center">
+    <arrow-circle-down-icon class="h-24 w-24 m-96 stroke-white "/> 
+  </div> 
 
     <div class="text-white">
-      <h1 class="text-5xl font-bold text-center m-5">L'histoire du festival</h1>
+      <h1 class="text-6xl font-bold text-center m-5">L'histoire du festival</h1>
 
       <div class="flex">
         <img class="objet-cover w-full m-0" src="../assets/Medias/forme_orange.png" alt="Forme orange">
-        <p class="text-2xl text-center mt-52 absolute">Fidèle à son esprit festif et original, Alpindays se positionne et s’illustre comme un moment d’évasion et de dépaysement au plein milieu de la montagne.</p>
+        <p class="text-4xl text-center m-80 absolute text-black">Fidèle à son esprit festif et original, Alpindays se positionne et s’illustre comme un moment d’évasion et de dépaysement au plein milieu de la montagne.</p>
       </div>
 
-        <p class="text-2xl text-center m-5">Depuis 4 ans seulement, ce sont déjà 687 concerts revendiqué, ayant fait le plaisir de près de 213.000 festivaliers, de tous âges, tous horizons et de toutes nationalités !  </p>
-        <h1 class="text-5xl font-bold text-left m-20">Courchvel</h1>
-        <p class="text-2xl text-center m-5">Niché au coeur de la station de ski, le festival offre une vue imprenable sur les Alpes. Isolé de la ville, vous vous couperez du reste du bon le temps d’un moment.</p>
+        <p class="text-2xl text-center m-40">Depuis 4 ans seulement, ce sont déjà 687 concerts revendiqué, ayant fait le plaisir de près de 213.000 festivaliers, de tous âges, tous horizons et de toutes nationalités !  </p>
+        
+        <div class="flex w-full justify-center items-center">
+          <div class="rounded-squared w-96 h-16 bg-indigo-400"></div>
+          <h1 class="text-6xl text-left -m-24 font-black">Courchvel</h1>
+        </div>
+
+        <p class="text-2xl text-center m-20">Niché au coeur de la station de ski, le festival offre une vue imprenable sur les Alpes. Isolé de la ville, vous vous couperez du reste du bon le temps d’un moment.</p>
     </div>
 
-    <div class="flex flex-wrap justify-between m-10">
+    <div class="flex flex-wrap justify-between m-40">
         <img src="../assets/Medias/festival_1.png" alt="Festival photo 1">
         <img src="../assets/Medias/festival_2.png" alt="Festival photo 2">
     </div>
@@ -31,15 +42,16 @@
     <div class="text-white text-center">
         <p class="text-2xl m-20">Le festival propose une ambiance décalée et moderne, où de nombreuses activités seront à la disposition des visiteurs. Grande roue, tyrolienne, structures gonflables seront à votre disposition
         (* tarifs supplémentaires s’appliquant).</p>
-        <p class="text-2xl m-20">Depuis 2 ans maintenant le festival organise un défilé le dernier jour du festival. Venez admirez les nombreux chars plus impressionnants les uns que les autres ! </p>
+        <p class="text-2xl m-52">Depuis 2 ans maintenant le festival organise un défilé le dernier jour du festival. Venez admirez les nombreux chars plus impressionnants les uns que les autres ! </p>
     </div>
 
-    <div class="flex flex-wrap justify-between m-20">
+    <div class="flex flex-wrap justify-between">
         <img src="../assets/Medias/festival_3.png" alt="Festival photo 3">
         <img src="../assets/Medias/festival_4.png" alt="Festival photo 4">
+        <img src="../assets/Medias/festival_5.png" alt="Festival photo 5">
     </div>
 
-    <p class="text-white font-black text-4xl text-center">Voir plus sur la musique ! </p>
+    <p class="text-white font-black text-4xl text-center m-32">Voir plus sur la musique ! </p>
     
     <div class="flex justify-center items-center m-12">
         <chevron-double-up-icon class="stroke-white w-20"></chevron-double-up-icon>
@@ -68,8 +80,8 @@
 </template>
 
 <script>
-import { ChevronDoubleUpIcon } from "@heroicons/vue/outline";
+import { ChevronDoubleUpIcon, ArrowCircleDownIcon } from "@heroicons/vue/outline";
 export default {
-  components: { ChevronDoubleUpIcon },
+  components: { ChevronDoubleUpIcon, ArrowCircleDownIcon },
 };
 </script>

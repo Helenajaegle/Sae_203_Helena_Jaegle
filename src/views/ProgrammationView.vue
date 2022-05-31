@@ -6,13 +6,17 @@
       <RouterLink to="/festival"><p class="text-2xl font-light uppercase">Festival</p></RouterLink>
     </div>
 
+  <div class="h-96">
     <img class="w-full m-0" src="../../public/Medias/fond-programmation.png" alt="fond programmation">
-
-  <div class="flex justify-center items-center">
-    <arrow-circle-down-icon class="h-16 w-16 m-10 stroke-white "/> 
   </div>
 
-    <div class="flex items-center justify-between m-10 text-2xl text-white">
+    <h1 class="text-white text-9xl font-bold m-44">La programmation</h1>
+
+  <div class="flex justify-center items-center">
+    <arrow-circle-down-icon class="h-24 w-24 m-96 stroke-white "/> 
+  </div>
+
+    <div class="flex items-center justify-between ml-32 mr-32 text-3xl text-white uppercase">
         <p class="font-black">Tous les jours</p>
         <p>Jeudi 24 juillet</p>
         <p>Vendredi 25 juillet</p>
