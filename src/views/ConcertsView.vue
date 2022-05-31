@@ -35,8 +35,33 @@
     </div>
   </div>
   
-  <img class="flex justify-center items-center m-20" src="../assets/Medias/Map.png" alt="Carte">
+  <div class="flex justify-center items-center mt-40">
+    <img class=" w-2/5" src="../assets/Medias/Map.png" alt="Carte">
+  </div>
 
+  <p class="text-white text-center text-2xl m-3">C’est ici que vous nous trouverez !</p>
+
+  
+     <div class="flex items-center justify-center">
+        <div class="rounded-full m-32 w-2/3 h-2 bg-white"></div>
+    </div>
+
+     <footer>
+    <div class="text-white ml-10 text-2xl">
+      <RouterLink to="/mentions"><p>Mentions légales</p></RouterLink>
+      <RouterLink to="/contact"><p>Contact</p></RouterLink>
+    </div>
+
+    <div class="flex float-right mr-12">
+      <img src="../assets/Medias/logo_petit.png" alt="Logo petit">
+    </div>
+
+    <div class="flex float-left space-x-9 m-10">
+      <img src="../assets/Medias/youtube.png" alt="Youtube">
+      <img src="../assets/Medias/twitter.png" alt="Twitter">
+      <img src="../assets/Medias/instagram.png" alt="Instagram">
+    </div>
+  </footer>
 </template>
 
 <script>
