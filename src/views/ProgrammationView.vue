@@ -6,42 +6,73 @@
       <RouterLink to="/festival"><p class="text-2xl font-light uppercase">Festival</p></RouterLink>
     </div>
 
-    <img class="w-full m-0" src="../assets/Medias/fond-programmation.png" alt="fond programmation">
+    <img class="w-full m-0" src="../../public/Medias/fond-programmation.png" alt="fond programmation">
 
-    <arrow-circle-down-icon class="flex items-center justify-center h-8 w-8 stroke-white "/> 
+  <div class="flex justify-center items-center">
+    <arrow-circle-down-icon class="h-16 w-16 m-10 stroke-white "/> 
+  </div>
 
     <div class="flex items-center justify-between m-10 text-2xl text-white">
-        <p>Tous les jours</p>
+        <p class="font-black">Tous les jours</p>
         <p>Jeudi 24 juillet</p>
         <p>Vendredi 25 juillet</p>
         <p>Samedi 26 juillet</p>
     </div>
 
     <div class="flex flex-wrap justify-between m-32">
+      <router-link to="/DavidGuetta">
         <img src="../assets/Medias/Guetta.png" alt="David Guetta">
+        <p class="text-white text-5xl font-black ml-44 m-3">David Guetta</p>
+        <div class="squared-full w-32 h-1 ml-64 m-5 bg-purple-500"></div>
+        <div class="ml-16">
+          <BoutonView/> 
+        </div>
+      </router-link>
+      <router-link to="/Diplo">
         <img src="../assets/Medias/Diplo.png" alt="Diplo">
-    </div>
-
-    <div class="flex flex-wrap justify-between m-60">
-        <div class="text-white">
-                <p class="text-2xl">David Guetta</p>
-                <div class="squared-full w-32 h-1 bg-purple-500"></div>
-                <p class="text-2xl">Jeudi 24 juillet</p>
+        <p class="text-white text-5xl font-black ml-64 m-3">Diplo</p>
+        <div class="squared-full w-32 h-1 ml-64 m-5 bg-purple-500"></div>
+        <div class="ml-16">
+          <BoutonView/> 
         </div>
-        <div class="text-white">
-                <p class="text-2xl">Diplo</p>
-                <div class="squared-full w-32 h-1 bg-purple-500"></div>
-                <p class="text-2xl">Jeudi 24 juillet</p>
-        </div>
+      </router-link>
     </div>
 
     <div class="flex flex-wrap justify-between m-32">
+      <router-link to="/PetitBiscuit">
         <img src="../assets/Medias/biscuit.png" alt="Petit Biscuit">
+        <p class="text-white text-5xl font-black ml-48 m-3">Petit Biscuit</p>
+        <div class="squared-full w-32 h-1 ml-64 m-5 bg-purple-500"></div>
+        <div class="ml-16">
+          <BoutonView/> 
+        </div>
+      </router-link>
+      <router-link to="/Sinclar">
         <img src="../assets/Medias/sinclar.png" alt="Bob sinclar">
+        <p class="text-white text-5xl font-black ml-48 m-3">Bob Sinclar</p>
+        <div class="squared-full w-32 h-1 ml-64 m-5 bg-purple-500"></div>
+        <div class="ml-16">
+          <BoutonView/> 
+        </div>
+      </router-link>
     </div>
     <div class="flex flex-wrap justify-between m-32">
+      <router-link to="/Alesso">
         <img src="../assets/Medias/Alesso.png" alt="Alesso">
+        <p class="text-white text-5xl font-black ml-60 m-3">Alesso</p>
+        <div class="squared-full w-32 h-1 ml-64 m-5 bg-purple-500"></div>
+        <div class="ml-16">
+          <BoutonView/> 
+        </div>
+      </router-link>
+      <router-link to="/Skrillex">
         <img src="../assets/Medias/skrillex.png" alt="Skrillex">
+        <p class="text-white text-5xl font-black ml-60 m-3">Skrillex</p>
+        <div class="squared-full w-32 h-1 ml-64 m-5 bg-purple-500"></div>
+        <div class="ml-16">
+          <BoutonView/> 
+        </div>
+      </router-link>
     </div>
 
     <div class="flex items-center justify-center">
@@ -68,7 +99,8 @@
 
 <script>
 import { ArrowCircleDownIcon } from "@heroicons/vue/outline";
+import BoutonView from "../components/Boutons/BoutonView.vue";
 export default {
-  components: { ArrowCircleDownIcon },
+  components: { ArrowCircleDownIcon, BoutonView },
 };
 </script>

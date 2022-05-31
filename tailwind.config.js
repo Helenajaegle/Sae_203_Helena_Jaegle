@@ -8,9 +8,7 @@ module.exports = {
 
   theme: {
     extend: {
-      backgroundImage: {
-        'imb': "url('/Medias/Fond_montagne.png')",
-      },
+
       "fontFamily": {
         "aclonica": ["'Aclonica'", "sansserif"],
         "raleway": ["Raleway", "sansserif"],
