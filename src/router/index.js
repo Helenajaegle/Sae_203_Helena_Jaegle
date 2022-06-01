@@ -16,7 +16,7 @@ import SkrillexView from '../views/SkrillexView.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
-    { path: '/Accueil', name: 'AccueilView', component: AccueilView },
+    { path: '/', name: 'AccueilView', component: AccueilView },
     { path: '/programmation', name: 'ProgrammationView', component: ProgrammationView },
     { path: '/Festival', name: 'FesitvalView', component: FestivalView },
     { path: '/Concerts', name: 'ConcertsView', component: ConcertsView },
