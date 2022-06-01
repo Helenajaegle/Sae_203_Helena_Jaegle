@@ -22,25 +22,28 @@
       <h2 class="text-3xl font-raleway m-3 mb-72">24 - 25 - 26 juillet 2022  -  Courchevel </h2>
     </div>
     
-  <div class="flex items-center justify-between m-14">
+  <div class="flex items-center justify-between m-10">
     <div class="flex items-center">
-      <img src="../assets/Medias/Festival.png" alt="Le festival">
-      <div class="squared-full w-40 h-32 bg-transparent border-2 border-white text-white font-semibold text-center p-10">Le festival </div>
+      <img class="w-96 hover:opacity-50" src="../assets/Medias/Festival.png" alt="Le festival">
     </div>
 
     <div class="flex items-center">
-      <img src="../assets/Medias/Programme.png" alt="Le programme">
-      <div class="squared-full w-40 h-32 bg-transparent border-2 border-white text-white font-semibold text-center p-10">Programme</div>
+      <img class="w-96 hover:opacity-50 rounded-md" src="../assets/Medias/Programme.png" alt="Le programme">
     </div>
 
     <div class="flex items-center">
-      <img src="../assets/Medias/Billeterie.png" alt="la billeterie">
-      <div class="squared-full w-40 h-32 bg-transparent border-2 border-white text-white font-semibold text-center p-10">Billeterie</div>
-    </div>
+      <img class="w-96 hover:opacity-50 rounded-md" src="../assets/Medias/Billeterie.png" alt="la billeterie">
+     </div>
+  </div>
+
+  <div class="text-white text-2xl flex justify-between items-center ml-40 mr-40 mt-2">
+    <p>Le festival</p>
+    <p>Programmation</p>
+    <p>Les concerts</p>
   </div>
 
   <div class="flex items-center justify-center">
-    <div class="rounded-full m-24 w-2/3 h-2 bg-white"></div>
+    <div class="rounded-full m-28 w-2/3 h-2 bg-white"></div>
   </div>
 
   <footer>

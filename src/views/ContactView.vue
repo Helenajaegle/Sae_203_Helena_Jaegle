@@ -1,5 +1,5 @@
 <template>
-    <div class="flex items-center m-10 text-white">
+    <div class="flex items-center m-3 text-white">
       <RouterLink to="/accueil"><p class="text-2xl uppercase text-center m-5 hover:font-bold">Accueil</p></RouterLink>
       <p>|</p>
       <RouterLink to="/programmation"><p class="text-2xl uppercase text-center m-5 hover:font-bold">Programmation</p></RouterLink>
