@@ -68,7 +68,7 @@
     </div>
 
     <div class="flex float-left space-x-9 m-10">
-      <img src="../assets/Medias/youtube.png" alt="Youtube">
+      <img src="../assets/Medias/Youtube.png" alt="Youtube">
       <img src="../assets/Medias/twitter.png" alt="Twitter">
       <img src="../assets/Medias/instagram.png" alt="Instagram">
     </div>
