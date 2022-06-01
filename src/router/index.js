@@ -12,6 +12,7 @@ import PetitBiscuitView from '../views/PetitBiscuitView.vue'
 import SinclarView from '../views/SinclarView.vue'
 import AlessoView from '../views/AlessoView.vue'
 import SkrillexView from '../views/SkrillexView.vue'
+import View404 from '../views/404View.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -29,7 +30,7 @@ const router = createRouter({
     { path: '/Sinclar', name: 'SinclarView', component: SinclarView },
     { path: '/Alesso', name: 'AlessoView', component: AlessoView },
     { path: '/Skrillex', name: 'SkrillexView', component: SkrillexView },
-    { path: '/:pathMatch(.)', name: 'page404', component: Page404 },
+    { path: '/:pathMatch(.*)', name: '404View', component: View404 },
 
   ]
 })
