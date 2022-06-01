@@ -9,7 +9,7 @@
       <RouterLink to="/festival"><p class="text-2xl uppercase text-center m-5 hover:font-bold">Festival</p></RouterLink>
     </div>
 
-    <img class="w-full m-0" src="../assets/Medias/fond_montagne.png" alt="Fond_montagne">
+    <img class="w-full m-0" src="../assets/Medias/fond_montagne.jpg" alt="Fond_montagne">
     
   <div class="flex items-center justify-between m-8">
     <div class="flex items-center">
