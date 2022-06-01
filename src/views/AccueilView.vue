@@ -36,7 +36,7 @@
      </div>
   </div>
 
-  <div class="text-white text-2xl flex justify-between items-center ml-40 mr-40 mt-2">
+  <div class="text-white text-2xl flex justify-between items-center ml-40 mr-40">
     <p>Le festival</p>
     <p>Programmation</p>
     <p>Les concerts</p>
