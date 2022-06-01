@@ -29,6 +29,7 @@ const router = createRouter({
     { path: '/Sinclar', name: 'SinclarView', component: SinclarView },
     { path: '/Alesso', name: 'AlessoView', component: AlessoView },
     { path: '/Skrillex', name: 'SkrillexView', component: SkrillexView },
+    { path: '/:pathMatch(.)', name: 'page404', component: Page404 },
 
   ]
 })

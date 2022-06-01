@@ -13,7 +13,7 @@
     <img class="w-full m-0" src="../../public/Medias/fond-programmation.png" alt="fond programmation">
   </div>
 
-    <h1 class="text-white text-9xl font-bold m-44">La programmation</h1>
+    <h1 class="sm:text-xl md:text-5xl lg:text-9xl text-white font-bold m-44">La programmation</h1>
 
   <div class="flex justify-center items-center">
     <arrow-circle-down-icon class="h-24 w-24 m-56 stroke-white "/> 
