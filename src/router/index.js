@@ -17,7 +17,7 @@ import View404 from '../views/404View.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
-    { path: '/', name: 'AccueilView', component: AccueilView },
+    { path: '/accueil', name: 'AccueilView', component: AccueilView },
     { path: '/programmation', name: 'ProgrammationView', component: ProgrammationView },
     { path: '/Festival', name: 'FesitvalView', component: FestivalView },
     { path: '/Concerts', name: 'ConcertsView', component: ConcertsView },
