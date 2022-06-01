@@ -16,7 +16,7 @@
   <h1 class="text-white text-9xl font-bold m-44">Les concerts</h1>
 
     <div class="flex justify-center items-center">
-      <arrow-circle-down-icon class="h-24 w-24 m-96 stroke-white "/> 
+      <arrow-circle-down-icon class="h-24 w-24 m-56 stroke-white "/> 
     </div>
 
     <h1 class="text-white text-6xl font-bold m-5 text-center">Explorez la musique</h1>

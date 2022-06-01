@@ -16,7 +16,7 @@
     <h1 class="text-white text-9xl font-bold m-44">Le festival</h1>
 
     <div class="flex justify-center items-center">
-    <arrow-circle-down-icon class="h-24 w-24 m-96 stroke-white "/> 
+    <arrow-circle-down-icon class="h-24 w-24 m-56 stroke-white "/> 
   </div> 
 
     <div class="text-white">
@@ -24,7 +24,7 @@
 
       <div class="flex">
         <img class="objet-cover w-full m-0" src="../assets/Medias/forme_orange.png" alt="Forme orange">
-        <p class="text-4xl text-center m-80 absolute text-black">Fidèle à son esprit festif et original, Alpindays se positionne et s’illustre comme un moment d’évasion et de dépaysement au plein milieu de la montagne.</p>
+        <p class="text-4xl text-center m-64 absolute text-black">Fidèle à son esprit festif et original, Alpindays se positionne et s’illustre comme un moment d’évasion et de dépaysement au plein milieu de la montagne.</p>
       </div>
 
         <p class="text-2xl text-center m-40">Depuis 4 ans seulement, ce sont déjà 687 concerts revendiqué, ayant fait le plaisir de près de 213.000 festivaliers, de tous âges, tous horizons et de toutes nationalités !  </p>
@@ -37,7 +37,7 @@
         <p class="text-2xl text-center m-20">Niché au coeur de la station de ski, le festival offre une vue imprenable sur les Alpes. Isolé de la ville, vous vous couperez du reste du bon le temps d’un moment.</p>
     </div>
 
-    <div class="flex flex-wrap justify-between m-40">
+    <div class="flex flex-wrap justify-between m-32">
         <img src="../assets/Medias/festival_1.png" alt="Festival photo 1">
         <img src="../assets/Medias/festival_2.png" alt="Festival photo 2">
     </div>
@@ -48,10 +48,13 @@
         <p class="text-2xl m-52">Depuis 2 ans maintenant le festival organise un défilé le dernier jour du festival. Venez admirez les nombreux chars plus impressionnants les uns que les autres ! </p>
     </div>
 
-    <div class="flex flex-wrap justify-between">
+    <div class="flex flex-wrap justify-between m-20">
         <img src="../assets/Medias/festival_3.png" alt="Festival photo 3">
         <img src="../assets/Medias/festival_4.png" alt="Festival photo 4">
-        <img src="../assets/Medias/festival_5.png" alt="Festival photo 5">
+    </div>
+
+    <div class="flex justify-center items-center">
+      <img src="../assets/Medias/festival_5.png" alt="Festival photo 5">
     </div>
 
     <p class="text-white font-black text-4xl text-center m-32">Voir plus sur la musique ! </p>

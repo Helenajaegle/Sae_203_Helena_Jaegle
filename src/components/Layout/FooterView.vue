@@ -10,7 +10,7 @@
     </div>
 
     <div class="flex float-right mr-12">
-      <img src="../assets/Medias/logo_petit.png" alt="Logo petit">
+      <img src="../../assets/Medias/logo_petit.png" alt="Logo petit">
     </div>
 
     <div class="flex float-left space-x-9 m-10">
