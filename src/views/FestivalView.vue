@@ -50,13 +50,16 @@
 
     <div class="relative flex w-full snap-x overflow-x-auto pb-14">
       <div class="w-full shrink-0 rounded-lg shadow-xl">
-        <img src="../assets/Medias/festival_3.png" alt="image 1" />
+        <img class="w-3/5" src="../assets/Medias/festival_3.png" alt="image 1" />
       </div>
       <div class="w-full shrink-0 rounded-lg shadow-xl">
-        <img src="../assets/Medias/festival_4.png" alt="image 2" />
+        <img class="w-3/5" src="../assets/Medias/festival_4.png" alt="image 2" />
       </div>
       <div class="w-full shrink-0 rounded-lg shadow-xl">
-        <img src="../assets/Medias/festival_5.png" alt="image 3" />
+        <img class="w-3/5" src="../assets/Medias/festival_5.png" alt="image 3" />
+      </div>
+      <div class="w-full shrink-0 rounded-lg shadow-xl">
+        <img class="w-3/5" src="../assets/Medias/festival_2.png" alt="image 3" />
       </div>
     </div>
 

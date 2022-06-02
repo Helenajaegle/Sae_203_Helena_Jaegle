@@ -3,6 +3,8 @@ import App from './App.vue'
 import router from './router'
 import './index.css'
 
+import { initializeApp } from "https://www.gstatic.com/firebasejs/9.7.0/firebase-app.js";
+
 // Your web app's Firebase configuration
 const firebaseConfig = {
     apiKey: "AIzaSyCmnfO09JR0R7N_J8-_wr-rygVYmcn6oCk",
@@ -12,6 +14,8 @@ const firebaseConfig = {
     messagingSenderId: "458064734105",
     appId: "1:458064734105:web:14775b40ebf74db02b5508"
 };
+
+const appFirebase = initializeApp(firebaseConfig);
 
 const app = createApp(App)
 

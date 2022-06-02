@@ -19,11 +19,37 @@
     <arrow-circle-down-icon class="h-24 w-24 m-56 stroke-white "/> 
   </div>
 
-    <div class="flex items-center justify-between ml-32 mr-32 text-3xl text-white uppercase">
-        <p class="font-black">Tous les jours</p>
-        <p>Jeudi 24 juillet</p>
-        <p>Vendredi 25 juillet</p>
-        <p>Samedi 26 juillet</p>
+    <div class="container">
+      <div class="row">
+        <div class="card bg-black text-white">
+          <div class="card-header">
+            <strong class="flex justify-center items-center text-2xl m-10">Liste des dates disponibles</strong>
+          </div>
+          <div class="card-body table-responsive">
+            <table class="table text-light">
+              <thead>
+                <!--
+                <tr>
+                  <td>Tous les jours</td>
+                  <td>Jeudi 24 juillet</td>
+                  <td>Vendredi 25 juillet</td>
+                  <td>Samedi 26 juillet</td>
+                </tr> 
+                -->  <tr>
+                  <div class="flex items-center justify-center">
+                    <td class="text-white text-2xl">Tous les jours</td>
+                    <td class="text-white text-2xl" v-for = "con in listeConcerts" :key="con.dateconcert">{{con.dateconcert}}</td>
+                  </div>
+                </tr> 
+
+
+              </thead>
+            </table>
+          </div>
+        </div>
+
+      </div>
+
     </div>
 
     <div class="flex flex-wrap justify-between m-32">
@@ -106,9 +132,42 @@
 </template>
 
 <script>
+
+import { 
+    getFirestore, 
+    collection, 
+    doc, 
+    addDoc, 
+    updateDoc, 
+    deleteDoc, 
+    onSnapshot 
+} from 'https://www.gstatic.com/firebasejs/9.7.0/firebase-firestore.js'
+
+
+
 import { ArrowCircleDownIcon } from "@heroicons/vue/outline";
 import BoutonView from "../components/Boutons/BoutonView.vue";
 export default {
+   data() {
+    return {
+      listeConcerts:[],  
+    }
+  },
   components: { ArrowCircleDownIcon, BoutonView },
+  mounted(){ 
+    this.getConcerts(); 
+  },
+  methods:{
+    async getConcerts(){
+      const firestore = getFirestore();
+      const dbConcerts= collection(firestore, "Concert");
+      const query = await onSnapshot(dbConcerts, (snapshot) =>{
+        this.listeConcerts = snapshot.docs.map(doc => ({id:doc.id, ...doc.data()}));
+        console.log('listeConcerts', this.listeConcerts);
+      }) 
+    }
+  }
+
 };
+
 </script>
