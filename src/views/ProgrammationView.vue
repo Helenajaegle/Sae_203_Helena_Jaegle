@@ -36,7 +36,7 @@
                   <td>Samedi 26 juillet</td>
                 </tr> 
                 -->  <tr>
-                  <div class="flex items-center justify-center">
+                  <div class="flex justify-center items-center ml-52">
                     <td class="text-white text-2xl">Tous les jours</td>
                     <td class="text-white text-2xl" v-for = "con in listeConcerts" :key="con.dateconcert">{{con.dateconcert}}</td>
                   </div>
