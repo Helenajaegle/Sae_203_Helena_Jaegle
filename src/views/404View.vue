@@ -17,9 +17,18 @@
         <h1>Désolé, cette page n'existe pas.</h1>
     </div>
 
-    <div class="m-10 flex justify-center items-center p-10">
-        <input type="search" class="rounded-lg p-3" placeholder="Recherchez...">
-    </div>
+  <div class="flex justify-center items-center m-10">
+      <form
+      action="https://duckduckgo.com/"
+      method="GET"
+      x-data="{ q:'', }"
+      x-on:submit="q = q + ' site:mmimontbeliard.com'"
+    >
+      <label class="text-white text-2xl z-20" for="q">Text à chercher :</label>
+      <input class="m-5" type="text" id="q" name="q" x-model="q" />
+      <button class="text-white text-2xl z-20" type="submit">Rechercher</button>
+    </form>
+  </div>
 
      <div class="flex items-center justify-center mt-60 mb-32">
         <div class="rounded-full w-2/3 h-2 bg-white"></div>
