@@ -48,13 +48,16 @@
         <p class="text-2xl m-52">Depuis 2 ans maintenant le festival organise un défilé le dernier jour du festival. Venez admirez les nombreux chars plus impressionnants les uns que les autres ! </p>
     </div>
 
-    <div class="flex flex-wrap justify-between m-20">
-        <img src="../assets/Medias/festival_3.png" alt="Festival photo 3">
-        <img src="../assets/Medias/festival_4.png" alt="Festival photo 4">
-    </div>
-
-    <div class="flex justify-center items-center">
-      <img src="../assets/Medias/festival_5.png" alt="Festival photo 5">
+    <div class="relative flex w-full snap-x overflow-x-auto pb-14">
+      <div class="w-full shrink-0 rounded-lg shadow-xl">
+        <img src="../assets/Medias/festival_3.png" alt="image 1" />
+      </div>
+      <div class="w-full shrink-0 rounded-lg shadow-xl">
+        <img src="../assets/Medias/festival_4.png" alt="image 2" />
+      </div>
+      <div class="w-full shrink-0 rounded-lg shadow-xl">
+        <img src="../assets/Medias/festival_5.png" alt="image 3" />
+      </div>
     </div>
 
     <p class="text-white font-black text-4xl text-center m-32">Voir plus sur la musique ! </p>
