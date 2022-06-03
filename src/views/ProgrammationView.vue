@@ -175,7 +175,8 @@ export default {
    data() {
     return {
       listeConcerts:[],  
-      dates:[]
+      dates:[],
+      categorie: 0
     }
   },
   components: { ArrowCircleDownIcon, BoutonView },

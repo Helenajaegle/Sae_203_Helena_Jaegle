@@ -14,6 +14,7 @@ import AlessoView from '../views/AlessoView.vue'
 import SkrillexView from '../views/SkrillexView.vue'
 import View404 from '../views/404View.vue'
 import MenuView from '../components/Boutons/MenuView.vue'
+import MonCompte from '../views/MonCompteView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -33,6 +34,7 @@ const router = createRouter({
     { path: '/Skrillex', name: 'SkrillexView', component: SkrillexView },
     { path: '/:pathMatch(.*)', name: '404View', component: View404 },
     { path: '/menu', name: 'MenuView', component: MenuView },
+    { path: '/MonCompte', name: 'MonCompteView', component: MonCompteView },
 
   ]
 })

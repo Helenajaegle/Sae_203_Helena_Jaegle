@@ -1,30 +1,30 @@
 <template>
-    <div class="flex items-center m-3 text-white">
-      <RouterLink to="/accueil"><p class="text-2xl uppercase text-center m-5 hover:font-bold">Accueil</p></RouterLink>
-      <p>|</p>
-      <RouterLink to="/programmation"><p class="text-2xl uppercase text-center m-5 hover:font-bold">Programmation</p></RouterLink>
-      <p>|</p>
-      <RouterLink to="/concerts"><p class="text-2xl uppercase text-center m-5 hover:font-bold">Concerts</p></RouterLink>
-      <p>|</p>
-      <RouterLink to="/festival"><p class="text-2xl uppercase text-center m-5 hover:font-bold">Festival</p></RouterLink>
-    </div>
+    <div class="flex items-center text-white m-3">
+        <RouterLink to="/accueil"><p class="sm:text-xl md:text-1xl lg:text-2xl uppercase text-center m-5 hover:font-bold">Accueil</p></RouterLink>
+        <p class="sm:text-xl md:text-1xl lg:text-2xl">|</p>
+        <RouterLink to="/programmation"><p class="sm:text-xl md:text-1xl lg:text-2xl uppercase text-center m-5 hover:font-bold">Programmation</p></RouterLink>
+        <p class="sm:text-xl md:text-1xl lg:text-2xl">|</p>
+        <RouterLink to="/concerts"><p class="sm:text-xl md:text-1xl lg:text-2xl uppercase text-center m-5 hover:font-bold">Concerts</p></RouterLink>
+        <p class="sm:text-xl md:text-1xl lg:text-2xl">|</p>
+        <RouterLink to="/festival"><p class="sm:text-xl md:text-1xl lg:text-2xl uppercase text-center m-5 hover:font-bold">Festival</p></RouterLink>
+      </div>
 
     <div class="h-96">
       <img class="w-full m-0" src="../assets/Medias/fond_festival.png" alt="fond festival">
     </div>
 
-    <h1 class="text-white text-9xl font-bold m-44">Le festival</h1>
+    <h1 class="text-white sm:text-4xl md:text-6xl lg:text-8xl font-bold m-44">Le festival</h1>
 
-    <div class="flex justify-center items-center">
+   <div class="flex justify-center items-center">
     <arrow-circle-down-icon class="h-24 w-24 m-56 stroke-white "/> 
-  </div> 
+  </div>
 
     <div class="text-white">
-      <h1 class="text-6xl font-bold text-center m-5">L'histoire du festival</h1>
+      <h1 class="sm:text-2xl md:text-4xl lg:text-6xl font-bold text-center m-5">L'histoire du festival</h1>
 
       <div class="flex">
         <img class="objet-cover w-full m-0" src="../assets/Medias/forme_orange.png" alt="Forme orange">
-        <p class="text-4xl text-center m-64 absolute text-black">Fidèle à son esprit festif et original, Alpindays se positionne et s’illustre comme un moment d’évasion et de dépaysement au plein milieu de la montagne.</p>
+        <p class="sm:text-2xl md:text-3xl lg:text-4xl text-center m-64 absolute text-black">Fidèle à son esprit festif et original, Alpindays se positionne et s’illustre comme un moment d’évasion et de dépaysement au plein milieu de la montagne.</p>
       </div>
 
         <p class="text-2xl text-center m-40">Depuis 4 ans seulement, ce sont déjà 687 concerts revendiqué, ayant fait le plaisir de près de 213.000 festivaliers, de tous âges, tous horizons et de toutes nationalités !  </p>
@@ -48,18 +48,18 @@
         <p class="text-2xl m-52">Depuis 2 ans maintenant le festival organise un défilé le dernier jour du festival. Venez admirez les nombreux chars plus impressionnants les uns que les autres ! </p>
     </div>
 
-    <div class="relative flex w-full snap-x overflow-x-auto pb-14">
+    <div class="relative flex w-full snap-x overflow-x-auto pb-1">
       <div class="w-full shrink-0 rounded-lg shadow-xl">
-        <img class="w-3/5" src="../assets/Medias/festival_3.png" alt="image 1" />
+        <img class="w-4/6" src="../assets/Medias/festival_3.png" alt="image 1" />
       </div>
       <div class="w-full shrink-0 rounded-lg shadow-xl">
-        <img class="w-3/5" src="../assets/Medias/festival_4.png" alt="image 2" />
+        <img class="w-4/6" src="../assets/Medias/festival_4.png" alt="image 2" />
       </div>
       <div class="w-full shrink-0 rounded-lg shadow-xl">
-        <img class="w-3/5" src="../assets/Medias/festival_5.png" alt="image 3" />
+        <img class="w-4/6" src="../assets/Medias/Festival_5.png" alt="image 3" />
       </div>
       <div class="w-full shrink-0 rounded-lg shadow-xl">
-        <img class="w-3/5" src="../assets/Medias/festival_2.png" alt="image 3" />
+        <img class="w-4/6" src="../assets/Medias/Festival_6.png" alt="image 3" />
       </div>
     </div>
 
