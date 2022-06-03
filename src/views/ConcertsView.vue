@@ -20,19 +20,19 @@
         </div>
     </div>
 
-    <h1 class="text-white sm:text-2xl md:text-4xl lg:text-6xl font-bold m-5 text-center">Explorez la musique</h1>
+    <h1 class="text-white sm:text-2xl md:text-4xl lg:text-5xl font-bold m-50 mt-96 text-center">Explorez la musique</h1>
 
   <div class="flex justify-center items-center w-full mt-20 mb-20">
     <div class="rounded-squared w-full h-40 bg-indigo-400"></div>
-    <p class="text-white sm:text-1xl md:text-2xl lg:text-3xl m-5 absolute text-center">Avec 15 concerts répartis sur 5 scènes, il y en a pour tous les goûts à Alpindays. Parmis les grandes têtes d’affiches ou les 
+    <p class="text-white sm:text-xl md:text-2xl lg:text-2xl m-5 absolute text-center">Avec 15 concerts répartis sur 5 scènes, il y en a pour tous les goûts à Alpindays. Parmis les grandes têtes d’affiches ou les 
       petites nouveautés, chacun peut trouver son bonheur. </p> 
   </div>
 
-    <p class="sm:text-2xl md:text-3xl lg:text-4xl text-white font-bold text-center m-20">Découverte...</p>
+    <p class="sm:text-2xl md:text-3xl lg:text-4xl text-white font-bold text-center mt-32">Découverte...</p>
     <p class="text-orange-500 sm:text-5xl md:text-7xl lg:text-9xl font-bold ml-52">"</p>
-    <p class="sm:text-1xl md:text-3xl lg:text-4xl font-light italic text-white text-center">Le festival tient à mettre en avant des tout nouveaux artistes qui débarquent dans le monde de la scène. </p>
+    <p class="sm:text-xl md:text-2xl lg:text-2xl font-light italic text-white text-center">Le festival tient à mettre en avant des tout nouveaux artistes qui débarquent dans le monde de la scène. </p>
     <p class="text-orange-500 sm:text-5xl md:text-7xl lg:text-9xl font-bold text-right mr-44">"</p>
-    <p class="sm:text-1xl md:text-3xl lg:text-4xl text-white text-center m-28">C’est une programmation festive, moderne et émerveillante, que promet le festival Alpindays.</p>
+    <p class="sm:text-xl md:text-2xl lg:text-2xl text-white text-center m-28">C’est une programmation festive, moderne et émerveillante, que promet le festival Alpindays.</p>
 
   <div class="m-24 gap-x-4">
     <div class="flex justify-between">
@@ -46,10 +46,9 @@
     </div>
   </div>
   
-  <div class="flex justify-center items-center mt-40 gap-x-4">
-    <img class="max-w-full min-w-fit" src="../assets/Medias/Map.png" alt="Carte">
+  <div class="mt-44">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.7246088289535!2d6.631240215655728!3d45.41489264475302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478978ac4a4f99df%3A0xa4d5fa638bd53541!2sCourchevel%20Aventure!5e0!3m2!1sfr!2sfr!4v1654253903435!5m2!1sfr!2sfr" width="1600" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
-
   <p class="text-white text-center sm:text-1xl md:text-2xl lg:text-2xl m-3">C’est ici que vous nous trouverez !</p>
 
   

@@ -61,7 +61,7 @@
 
     <div class="flex flex-wrap justify-between m-28">
       <router-link to="/DavidGuetta">
-        <img src="../assets/Medias/Guetta.png" alt="David Guetta">
+        <img src="../assets/Medias/Guetta.png" alt="David Guetta" class="flex hover:w-11/12">
           <div class="flex justify-center items-center">
               <p class="text-white sm:text-1xl md:text-3xl lg:text-4xl font-black m-3">David Guetta</p>
           </div>
@@ -73,7 +73,7 @@
         </div>
       </router-link>
       <router-link to="/Diplo">
-        <img src="../assets/Medias/Diplo.png" alt="Diplo">
+        <img src="../assets/Medias/Diplo.png" alt="Diplo" class="flex hover:w-11/12">
         <div class="flex justify-center items-center">
               <p class="text-white sm:text-1xl md:text-3xl lg:text-4xl font-black m-3">Diplo</p>
           </div>
@@ -88,7 +88,7 @@
 
     <div class="flex flex-wrap justify-between m-28">
       <router-link to="/PetitBiscuit">
-        <img src="../assets/Medias/biscuit.png" alt="Petit Biscuit">
+        <img src="../assets/Medias/biscuit.png" alt="Petit Biscuit" class="flex hover:w-11/12">
         <div class="flex justify-center items-center">
               <p class="text-white sm:text-1xl md:text-3xl lg:text-4xl font-black m-3">Petit Biscuit</p>
           </div>
@@ -100,7 +100,7 @@
         </div>
       </router-link>
       <router-link to="/Sinclar">
-        <img src="../assets/Medias/sinclar.png" alt="Bob sinclar">
+        <img src="../assets/Medias/sinclar.png" alt="Bob sinclar" class="flex hover:w-11/12">
         <div class="flex justify-center items-center">
               <p class="text-white sm:text-1xl md:text-3xl lg:text-4xl font-black m-3">Bob Sinclar</p>
           </div>
@@ -114,7 +114,7 @@
     </div>
     <div class="flex flex-wrap justify-between m-28">
       <router-link to="/Alesso">
-        <img src="../assets/Medias/Alesso.png" alt="Alesso">
+        <img src="../assets/Medias/Alesso.png" alt="Alesso" class="flex hover:w-11/12">
         <div class="flex justify-center items-center">
               <p class="text-white sm:text-1xl md:text-3xl lg:text-4xl font-black m-3">Alesso</p>
           </div>
@@ -126,7 +126,7 @@
         </div>
       </router-link>
       <router-link to="/Skrillex">
-        <img src="../assets/Medias/skrillex.png" alt="Skrillex">
+        <img src="../assets/Medias/skrillex.png" alt="Skrillex" class="flex hover:w-11/12">
         <div class="flex justify-center items-center">
               <p class="text-white sm:text-1xl md:text-3xl lg:text-4xl font-black m-3">Skrillex</p>
           </div>
