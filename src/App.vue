@@ -16,3 +16,13 @@ import ConcertsView from "./views/ConcertsView.vue";
 import DavidGuettaView from "./views/DavidGuettaView.vue";
 import MenuView from "./components/Boutons/MenuView.vue";
 </script>
+
+<!--
+
+// Fonction authentification
+import { getAuth } from 'https://www.gstatic.com/firebasejs/9.7.0/firebase-auth.js'
+
+// Import emetteur de main.js
+import { emitter } from './main.js'
+
+--> 
