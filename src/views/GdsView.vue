@@ -68,6 +68,7 @@ import {
   XIcon,
   CalendarIcon,
   LocationMarkerIcon,
+  MenuAlt1Icon,
 } from "@heroicons/vue/outline";
 
 import InstagramIcon from "../components/icons/InstagramIcon.vue";
@@ -76,6 +77,7 @@ import YoutubeIcon from "../components/icons/YoutubeIcon.vue";
 
 
 import Bouton from "../components/Boutons/BoutonView.vue";
+import Menu from "../components/Boutons/MenuView.vue"
 
 import FooterView from "../components/Layout/FooterView.vue";
 
@@ -93,6 +95,7 @@ export default {
     XIcon,
     CalendarIcon,
     LocationMarkerIcon,
+    MenuAlt1Icon,
 },
 };
 </script>

@@ -20,7 +20,6 @@
         <li>
           <RouterLink to="/Concert" @click="MenuOpen = !MenuOpen">Concerts</RouterLink>
         </li>
-        <li>
       </ul>
     </nav>
   </header>
