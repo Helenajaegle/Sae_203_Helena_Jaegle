@@ -50,6 +50,7 @@
         <p class="text-2xl m-52">Depuis 2 ans maintenant le festival organise un défilé le dernier jour du festival. Venez admirez les nombreux chars plus impressionnants les uns que les autres ! </p>
     </div>
 
+<!--
     <div class="relative flex w-full snap-x overflow-x-auto pb-1">
       <div class="w-full shrink-0 rounded-lg shadow-xl">
         <img class="w-4/6" src="../assets/Medias/festival_3.png" alt="image 1" />
@@ -64,6 +65,7 @@
         <img class="w-4/6" src="../assets/Medias/Festival_6.png" alt="image 3" />
       </div>
     </div>
+-->
 
     <p class="text-white font-black text-4xl text-center m-32">Voir plus sur la musique ! </p>
     
