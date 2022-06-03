@@ -12,7 +12,7 @@
         <h2 class="sm:text-xl md:text-2xl lg:text-2xl font-bold mt-20 text-white text-center">Pour toutes questions n’hésitez pas à nous contacter en remplisant ce formulaire.</h2>
         
         <div class="flex justify-center items-center">
-            <div class="squared-full w-5/12 py-1 bg-indigo-400 mt-4 mb-20"></div>
+            <div class="squared-full w-5/12 py-1 bg-indigo-400 mt-4 mb-20 motion-safe:animate-bounce"></div>
         </div>
 
         <div class="flex justify-center items-center">
