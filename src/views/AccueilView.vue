@@ -1,28 +1,31 @@
 <template>
       <div class="flex items-center text-white m-3">
-        <RouterLink to="/accueil"><p class="sm:text-xl md:text-1xl lg:text-2xl uppercase text-center m-5 hover:font-bold">Accueil</p></RouterLink>
-        <p class="sm:text-xl md:text-1xl lg:text-2xl">|</p>
-        <RouterLink to="/programmation"><p class="sm:text-xl md:text-1xl lg:text-2xl uppercase text-center m-5 hover:font-bold">Programmation</p></RouterLink>
-        <p class="sm:text-xl md:text-1xl lg:text-2xl">|</p>
-        <RouterLink to="/concerts"><p class="sm:text-xl md:text-1xl lg:text-2xl uppercase text-center m-5 hover:font-bold">Concerts</p></RouterLink>
-        <p class="sm:text-xl md:text-1xl lg:text-2xl">|</p>
-        <RouterLink to="/festival"><p class="sm:text-xl md:text-1xl lg:text-2xl uppercase text-center m-5 hover:font-bold">Festival</p></RouterLink>
+        <RouterLink to="/accueil"><p class="sm:text-xl md:text-xl lg:text-xl uppercase text-center m-5 hover:font-bold">Accueil</p></RouterLink>
+        <p class="sm:text-xl md:text-xl lg:text-xl">|</p>
+        <RouterLink to="/programmation"><p class="sm:text-xl md:text-xl lg:text-xl uppercase text-center m-5 hover:font-bold">Programmation</p></RouterLink>
+        <p class="sm:text-xl md:text-xl lg:text-xl">|</p>
+        <RouterLink to="/concerts"><p class="sm:text-xl md:text-xl lg:text-xl uppercase text-center m-5 hover:font-bold">Concerts</p></RouterLink>
+        <p class="sm:text-xl md:text-xl lg:text-xl">|</p>
+        <RouterLink to="/festival"><p class="sm:text-xl md:text-xl lg:text-xl uppercase text-center m-5 hover:font-bold">Festival</p></RouterLink>
       </div>
 
-    <div class="flex h-60 w-screen flex-col gap-2 bg-hero-bg-sec bg-cover md:h-96">
+    <div class="flex h-60 w-screen flex-col bg-hero-bg-sec bg-cover">
       <img src="../assets/Medias/Fond_montagne.png" alt="Fond_montagne">
     </div>
 
-    <div class="flex justify-center items-center mt-7">
+    <div class="flex justify-center items-center w-full mb-5">
       <img src="../assets/Medias/logo_petit.png" alt="Logo">
     </div>
 
     <div class="text-white text-center">
-      <h1 class="sm:text-2xl md:text-4xl lg:text-6xl font-aclonica m-5">Alpin Days</h1>
-      <h2 class="sm:text-1xl md:text-2xl lg:text-3xl font-raleway m-3 mb-72">24 - 25 - 26 juillet 2022  -  Courchevel </h2>
+      <h1 class="sm:text-2xl md:text-4xl lg:text-8xl font-aclonica mb-5">Alpin Days</h1>
+      <h2 class="sm:text-1xl md:text-2xl lg:text-2xl font-raleway">24 - 25 - 26 juillet 2022  -  Courchevel </h2>
+        <div class="flex justify-center items-center relative motion-safe:animate-bounce m-24">
+          <ChevronDoubleDownIcon class="stroke-white w-16"></ChevronDoubleDownIcon>
+        </div>
     </div>
     
-  <div class="flex items-center justify-between m-10">
+  <div class="flex items-center justify-between m-40">
     <RouterLink to="/festival">
       <figure class="relative w-auto h-64">
         <img src="../assets/Medias/Festival.png" alt="Image du festival" class="h-64 w-96 rounded-md object-cover">
@@ -68,7 +71,7 @@
   </div>
 
   <div class="flex items-center justify-center">
-    <div class="rounded-full m-28 w-2/3 h-2 bg-white"></div>
+    <div class="rounded-full m-12 w-3/4 h-2 bg-white"></div>
   </div>
 
   <footer>
@@ -92,8 +95,8 @@
 </template>
 
 <script>
-import { ChevronDoubleUpIcon } from "@heroicons/vue/outline";
+import { ChevronDoubleUpIcon, ChevronDoubleDownIcon } from "@heroicons/vue/outline";
 export default {
-  components: { ChevronDoubleUpIcon },
+  components: { ChevronDoubleUpIcon, ChevronDoubleDownIcon },
 };
 </script>
