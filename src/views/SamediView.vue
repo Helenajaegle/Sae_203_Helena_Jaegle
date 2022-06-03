@@ -92,17 +92,25 @@
   </div>
 
      <footer>
-    <div class="text-white ml-10 sm:text-1xl md:text-2xl lg:text-2xl">
-      <RouterLink to="/mentions"><p>Mentions légales</p></RouterLink>
-      <RouterLink to="/contact"><p>Contact</p></RouterLink>
-      <RouterLink to="/gds"><p>Guide de style</p></RouterLink>
+    <RouterLink to="/accueil">
+      <div class="flex justify-center items-center mb-5">
+        <img src="../assets/Medias/logo_petit.png" alt="Logo petit" class="w-16">
+      </div>
+    </RouterLink>
+
+    <div class="text-white ml-10 sm:text-xl md:text-xl lg:text-xl">
+      <p class="text-center text-xl mb-10">Ce site est réalisé dans le cadre d'un exercice de première année ay BUT MMI de Montbéliard.</p>
+      
+      <div class="flex justify-center items-center text-white">
+        <RouterLink to="/mentions"><p class="sm:text-xl md:text-xl lg:text-xl text-center m-5 hover:font-bold">Mentions légales</p></RouterLink>
+        <p class="sm:text-xl md:text-xl lg:text-xl">|</p>
+        <RouterLink to="/contact"><p class="sm:text-xl md:text-xl lg:text-xl text-center m-5 hover:font-bold">Nous contacter</p></RouterLink>
+        <p class="sm:text-xl md:text-xl lg:text-xl">|</p>
+        <RouterLink to="/gds"><p class="sm:text-xl md:text-xl text-center m-5 hover:font-bold">Guide de style</p></RouterLink>
+       </div>
     </div>
 
-    <div class="flex float-right mr-12">
-      <img src="../assets/Medias/logo_petit.png" alt="Logo petit">
-    </div>
-
-    <div class="flex float-left m-10 gap-x-4">
+    <div class="flex justify-center items-center m-10 gap-x-10">
       <img src="../assets/Medias/Youtube.png" alt="Youtube">
       <img src="../assets/Medias/twitter.png" alt="Twitter">
       <img src="../assets/Medias/instagram.png" alt="Instagram">

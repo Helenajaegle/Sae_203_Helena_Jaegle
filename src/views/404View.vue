@@ -14,16 +14,16 @@
         <div class="rounded-full w-full h-2 bg-white"></div>
     </div>
 
-    <div class="h-44 mb-5">
-    <img class="w-full m-0 opacity-25" src="../assets/Medias/festival_1.png" alt="Fond concert">
-  </div> 
+  <div class="flex h-60 w-screen flex-col bg-hero-bg-sec bg-cover">
+    <img src="../assets/Medias/Fond_montagne.png" alt="Fond Montagne">
+  </div>
   
-    <div class="text-white text-6xl text-center">
+    <div class="text-white text-6xl text-center m-5">
         <h1>Désolé, cette page n'existe pas.</h1>
     </div>
 
-        <div class="flex justify-center items-center relative motion-safe:animate-bounce m-16">
-          <ChevronDoubleDownIcon class="stroke-white w-16"></ChevronDoubleDownIcon>
+        <div class="flex justify-center items-center relative motion-safe:animate-bounce m-10">
+          <ChevronDoubleDownIcon class="stroke-white w-12"></ChevronDoubleDownIcon>
         </div>
 
   <div class="flex justify-center items-center">
@@ -33,8 +33,8 @@
       x-data="{ q:'', }"
       x-on:submit="q = q + ' site:mmimontbeliard.com'"
     >
-      <input class="m-5" type="text" id="q" name="q" x-model="q"/>
-      <button class="text-white text-2xl z-20 click" type="submit">Recherchez</button>
+      <input class="m-5 rounded-xl p-2" type="text" id="q" name="q" x-model="q"/>
+      <button class="text-white text-xl z-20 click border-2 border-white p-2 rounded-xl hover:bg-black" type="submit">Recherchez</button>
     </form>
   </div>
 
