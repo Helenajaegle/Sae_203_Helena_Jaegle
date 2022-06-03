@@ -32,9 +32,6 @@
           <figcaption class="absolute bottom-0 left-0 flex h-full items-end justify-between p-10 duration-300 md:opacity-0 md:hover:opacity-100 bg-slate-100">
             <div class="flex flex-col gap-6">
               <p class="font-mulish text-3xl uppercase">Le festival</p>
-                <div class="flex justify-center items-center">
-                  <ChevronDoubleUpIcon class="stroke-black w-6"></ChevronDoubleUpIcon>
-                </div>
             </div>
           </figcaption>
       </figure>
@@ -46,9 +43,6 @@
           <figcaption class="absolute bottom-0 left-0 flex h-full items-end justify-between p-10 duration-300 md:opacity-0 md:hover:opacity-100 bg-slate-100">
             <div class="flex flex-col gap-6">
               <p class="font-mulish text-3xl uppercase">Les concerts</p>
-                <div class="flex justify-center items-center">
-                  <ChevronDoubleUpIcon class="stroke-black w-6"></ChevronDoubleUpIcon>
-                </div>
             </div>
           </figcaption>
       </figure>
@@ -60,9 +54,6 @@
           <figcaption class="absolute bottom-0 left-0 flex h-full items-end justify-between p-10 duration-300 md:opacity-0 md:hover:opacity-100 bg-slate-100">
             <div class="flex flex-col gap-6">
               <p class="font-mulish text-3xl uppercase">Le programme</p>
-                <div class="flex justify-center items-center">
-                  <ChevronDoubleUpIcon class="stroke-black w-6"></ChevronDoubleUpIcon>
-                </div>
             </div>
           </figcaption>
       </figure>

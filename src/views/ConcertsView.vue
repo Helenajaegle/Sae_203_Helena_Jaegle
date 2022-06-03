@@ -1,23 +1,24 @@
 <template>
     <div class="flex items-center text-white m-3">
-        <RouterLink to="/accueil"><p class="sm:text-xl md:text-1xl lg:text-2xl uppercase text-center m-5 hover:font-bold">Accueil</p></RouterLink>
-        <p class="sm:text-xl md:text-1xl lg:text-2xl">|</p>
-        <RouterLink to="/programmation"><p class="sm:text-xl md:text-1xl lg:text-2xl uppercase text-center m-5 hover:font-bold">Programmation</p></RouterLink>
-        <p class="sm:text-xl md:text-1xl lg:text-2xl">|</p>
-        <RouterLink to="/concerts"><p class="sm:text-xl md:text-1xl lg:text-2xl uppercase text-center m-5 hover:font-bold">Concerts</p></RouterLink>
-        <p class="sm:text-xl md:text-1xl lg:text-2xl">|</p>
-        <RouterLink to="/festival"><p class="sm:text-xl md:text-1xl lg:text-2xl uppercase text-center m-5 hover:font-bold">Festival</p></RouterLink>
+        <RouterLink to="/accueil"><p class="sm:text-xl md:text-xl lg:text-xl uppercase text-center m-5 hover:font-bold">Accueil</p></RouterLink>
+        <p class="sm:text-xl md:text-xl lg:text-xl">|</p>
+        <RouterLink to="/programmation"><p class="sm:text-xl md:text-xl lg:text-xl uppercase text-center m-5 hover:font-bold">Programmation</p></RouterLink>
+        <p class="sm:text-xl md:text-xl lg:text-xl">|</p>
+        <RouterLink to="/concerts"><p class="sm:text-xl md:text-xl lg:text-xl uppercase text-center m-5 hover:font-bold">Concerts</p></RouterLink>
+        <p class="sm:text-xl md:text-xl lg:text-xl">|</p>
+        <RouterLink to="/festival"><p class="sm:text-xl md:text-xl lg:text-xl uppercase text-center m-5 hover:font-bold">Festival</p></RouterLink>
       </div>
 
   <div class="h-96 gap-x-4">
     <img class="w-full m-0" src="../assets/Medias/fond-concert.png" alt="Fond concert">
   </div>
-
-  <h1 class="text-white sm:text-4xl md:text-6xl lg:text-8xl font-bold m-44">Les concerts</h1>
-
-    <div class="flex justify-center items-center">
-    <arrow-circle-down-icon class="h-24 w-24 m-56 stroke-white "/> 
-  </div>
+ 
+  <div class="text-white text-center">
+      <h1 class="sm:text-2xl md:text-4xl lg:text-8xl font-raleway font-black mb-5">Les concerts</h1>
+        <div class="flex justify-center items-center relative motion-safe:animate-bounce m-24">
+          <ChevronDoubleDownIcon class="stroke-white w-16"></ChevronDoubleDownIcon>
+        </div>
+    </div>
 
     <h1 class="text-white sm:text-2xl md:text-4xl lg:text-6xl font-bold m-5 text-center">Explorez la musique</h1>
 
@@ -76,8 +77,8 @@
 </template>
 
 <script>
-import { PlayIcon, ArrowCircleDownIcon } from "@heroicons/vue/outline";
+import { PlayIcon, ArrowCircleDownIcon, ChevronDoubleDownIcon } from "@heroicons/vue/outline";
 export default {
-  components: { PlayIcon, ArrowCircleDownIcon },
+  components: { PlayIcon, ArrowCircleDownIcon, ChevronDoubleDownIcon },
 };
 </script>

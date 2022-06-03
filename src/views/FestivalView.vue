@@ -8,16 +8,18 @@
         <p class="sm:text-xl md:text-xl lg:text-xl">|</p>
         <RouterLink to="/festival"><p class="sm:text-xl md:text-xl lg:text-xl uppercase text-center m-5 hover:font-bold">Festival</p></RouterLink>
       </div>
-
+ 
     <div class="h-96">
       <img class="w-full m-0" src="../assets/Medias/fond_festival.png" alt="fond festival">
     </div>
 
-    <h1 class="text-white sm:text-4xl md:text-6xl lg:text-8xl font-bold m-44">Le festival</h1>
+    <div class="text-white text-center">
+      <h1 class="sm:text-2xl md:text-4xl lg:text-8xl font-raleway font-black mb-5">Le festival</h1>
+        <div class="flex justify-center items-center relative motion-safe:animate-bounce m-24">
+          <ChevronDoubleDownIcon class="stroke-white w-16"></ChevronDoubleDownIcon>
+        </div>
+    </div>
 
-   <div class="flex justify-center items-center">
-    <arrow-circle-down-icon class="h-24 w-24 m-56 stroke-white "/> 
-  </div>
 
     <div class="text-white">
       <h1 class="sm:text-2xl md:text-4xl lg:text-6xl font-bold text-center m-5">L'histoire du festival</h1>
@@ -93,8 +95,8 @@
 </template>
 
 <script>
-import { ChevronDoubleUpIcon, ArrowCircleDownIcon } from "@heroicons/vue/outline";
+import { ChevronDoubleUpIcon, ArrowCircleDownIcon, ChevronDoubleDownIcon } from "@heroicons/vue/outline";
 export default {
-  components: { ChevronDoubleUpIcon, ArrowCircleDownIcon },
+  components: { ChevronDoubleUpIcon, ArrowCircleDownIcon, ChevronDoubleDownIcon },
 };
 </script>
