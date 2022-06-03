@@ -113,7 +113,7 @@
       </router-link>
     </div>
     <div class="flex flex-wrap justify-between m-28">
-      <router-link to="/Skrillex">
+      <router-link to="/Alesso">
         <img src="../assets/Medias/Alesso.png" alt="Alesso">
         <div class="flex justify-center items-center">
               <p class="text-white sm:text-1xl md:text-3xl lg:text-4xl font-black m-3">Alesso</p>
