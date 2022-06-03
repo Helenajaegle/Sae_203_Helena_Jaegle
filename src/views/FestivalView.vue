@@ -59,9 +59,6 @@
         <img class="w-6/6" src="../assets/Medias/festival_4.png" alt="image 2" />
       </div>
       <div class="w-full shrink-4 rounded-lg shadow-xl">
-        <img class="w-6/6" src="../assets/Medias/Festival_5.png" alt="image 3" />
-      </div>
-      <div class="w-full shrink-4 rounded-lg shadow-xl">
         <img class="w-6/6" src="../assets/Medias/Festival_6.png" alt="image 3" />
       </div>
     </div>
