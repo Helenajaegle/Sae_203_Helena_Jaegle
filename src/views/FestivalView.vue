@@ -73,7 +73,7 @@
     </div>
 
      <div class="flex items-center justify-center">
-        <div class="rounded-full m-32 w-2/3 h-2 bg-white"></div>
+      <div class="rounded-full m-12 w-3/4 h-2 bg-white"></div>
     </div>
 
      <footer>
