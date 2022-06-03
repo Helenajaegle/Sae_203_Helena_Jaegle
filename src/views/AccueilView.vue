@@ -9,8 +9,8 @@
         <RouterLink to="/festival"><p class="sm:text-xl md:text-1xl lg:text-2xl uppercase text-center m-5 hover:font-bold">Festival</p></RouterLink>
       </div>
 
-    <div class="h-96 gap-x-4">
-      <img class="w-full m-0" src="../assets/Medias/Fond_montagne.png" alt="Fond_montagne">
+    <div class="flex h-60 w-screen flex-col gap-2 bg-hero-bg-sec bg-cover md:h-96">
+      <img src="../assets/Medias/Fond_montagne.png" alt="Fond_montagne">
     </div>
 
     <div class="flex justify-center items-center mt-7">

@@ -9,7 +9,7 @@
         <RouterLink to="/festival"><p class="sm:text-xl md:text-1xl lg:text-2xl uppercase text-center m-5 hover:font-bold">Festival</p></RouterLink>
       </div>
 
-  <div class="h-96">
+  <div class="h-96 gap-x-4">
     <img class="w-full m-0" src="../../public/Medias/fond-programmation.png" alt="fond programmation">
   </div>
 
