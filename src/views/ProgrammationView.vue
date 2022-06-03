@@ -52,14 +52,14 @@
     </div>
     --> 
 
-    <div class="flex justify-between text-white text-2xl m-44 uppercase mt-72">
-       <RouterLink to="/programmation"><p class="hover:font-bold">Tous les jours</p></RouterLink>
+    <div class="flex justify-between text-white text-2xl m-60 uppercase mt-72">
+       <RouterLink to="/programmation"><p class="font-bold hover:font-bold bg-black p-5">Tous les jours</p></RouterLink>
         <RouterLink to="/jeudi"><p class="hover:font-bold">Jeudi 24 juillet</p></RouterLink>
         <RouterLink to="/vendredi"><p class="hover:font-bold">Vendredi 25 juillet</p></RouterLink>
         <RouterLink to="/samedi"><p class="hover:font-bold">Samedi 26 juillet</p></RouterLink>
     </div>
 
-    <div class="flex flex-wrap justify-between m-32">
+    <div class="flex flex-wrap justify-between m-28">
       <router-link to="/DavidGuetta">
         <img src="../assets/Medias/Guetta.png" alt="David Guetta">
           <div class="flex justify-center items-center">
@@ -86,7 +86,7 @@
       </router-link>
     </div>
 
-    <div class="flex flex-wrap justify-between m-32">
+    <div class="flex flex-wrap justify-between m-28">
       <router-link to="/PetitBiscuit">
         <img src="../assets/Medias/biscuit.png" alt="Petit Biscuit">
         <div class="flex justify-center items-center">
@@ -112,7 +112,7 @@
         </div>
       </router-link>
     </div>
-    <div class="flex flex-wrap justify-between m-32">
+    <div class="flex flex-wrap justify-between m-28">
       <router-link to="/Skrillex">
         <img src="../assets/Medias/Alesso.png" alt="Alesso">
         <div class="flex justify-center items-center">
