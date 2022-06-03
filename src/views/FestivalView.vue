@@ -1,12 +1,12 @@
 <template>
-    <div class="flex items-center text-white m-3">
-        <RouterLink to="/accueil"><p class="sm:text-xl md:text-1xl lg:text-2xl uppercase text-center m-5 hover:font-bold">Accueil</p></RouterLink>
-        <p class="sm:text-xl md:text-1xl lg:text-2xl">|</p>
-        <RouterLink to="/programmation"><p class="sm:text-xl md:text-1xl lg:text-2xl uppercase text-center m-5 hover:font-bold">Programmation</p></RouterLink>
-        <p class="sm:text-xl md:text-1xl lg:text-2xl">|</p>
-        <RouterLink to="/concerts"><p class="sm:text-xl md:text-1xl lg:text-2xl uppercase text-center m-5 hover:font-bold">Concerts</p></RouterLink>
-        <p class="sm:text-xl md:text-1xl lg:text-2xl">|</p>
-        <RouterLink to="/festival"><p class="sm:text-xl md:text-1xl lg:text-2xl uppercase text-center m-5 hover:font-bold">Festival</p></RouterLink>
+     <div class="flex items-center text-white m-3">
+        <RouterLink to="/accueil"><p class="sm:text-xl md:text-xl lg:text-xl uppercase text-center m-5 hover:font-bold">Accueil</p></RouterLink>
+        <p class="sm:text-xl md:text-xl lg:text-xl">|</p>
+        <RouterLink to="/programmation"><p class="sm:text-xl md:text-xl lg:text-xl uppercase text-center m-5 hover:font-bold">Programmation</p></RouterLink>
+        <p class="sm:text-xl md:text-xl lg:text-xl">|</p>
+        <RouterLink to="/concerts"><p class="sm:text-xl md:text-xl lg:text-xl uppercase text-center m-5 hover:font-bold">Concerts</p></RouterLink>
+        <p class="sm:text-xl md:text-xl lg:text-xl">|</p>
+        <RouterLink to="/festival"><p class="sm:text-xl md:text-xl lg:text-xl uppercase text-center m-5 hover:font-bold">Festival</p></RouterLink>
       </div>
 
     <div class="h-96">

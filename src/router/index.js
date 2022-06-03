@@ -15,6 +15,9 @@ import SkrillexView from '../views/SkrillexView.vue'
 import View404 from '../views/404View.vue'
 import MenuView from '../components/Boutons/MenuView.vue'
 import MonCompteView from '../views/MonCompteView.vue'
+import JeudiView from '../views/JeudiView.vue'
+import VendrediView from '../views/VendrediView.vue'
+import SamediView from '../views/SamediView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -35,6 +38,9 @@ const router = createRouter({
     { path: '/:pathMatch(.*)', name: '404View', component: View404 },
     { path: '/menu', name: 'MenuView', component: MenuView },
     { path: '/MonCompte', name: 'MonCompteView', component: MonCompteView },
+    { path: '/Jeudi', name: 'JeudiView', component: JeudiView },
+    { path: '/Vendredi', name: 'VendrediView', component: VendrediView },
+    { path: '/Samedi', name: 'SamediView', component: SamediView },
 
   ]
 })

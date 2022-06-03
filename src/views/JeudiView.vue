@@ -20,38 +20,6 @@
         </div>
     </div>
 
- <!--
-    <div class="container mt-96">
-      <div class="row">
-        <div class="card bg-black text-white">
-          <div class="card-header">
-            <strong class="flex justify-center items-center text-2xl">Liste des dates disponibles</strong>
-          </div>
-          <div class="card-body table-responsive text-center">
-            <table class="table text-light">
-              <thead>
-                <tr>
-                  <td>Tous les jours</td>
-                  <td>Jeudi 24 juillet</td>
-                  <td>Vendredi 25 juillet</td>
-                  <td>Samedi 26 juillet</td>
-                </tr> 
-                 <tr>
-                  <div class="flex justify-center items-center ml-52">
-                    <td class="text-white sm:text-1xl md:text-2xl lg:text-2xl">Tous les jours</td>
-                    <td class="text-white sm:text-1xl md:text-2xl lg:text-2xl" v-for = "con in dates" :key="con">{{con}}</td>
-                  </div>
-                </tr> 
-
-
-              </thead>
-            </table>
-          </div>
-        </div>
-      </div>
-    </div>
-    --> 
-
     <div class="flex justify-between text-white text-2xl m-44 uppercase mt-72">
        <RouterLink to="/programmation"><p class="hover:font-bold">Tous les jours</p></RouterLink>
         <RouterLink to="/jeudi"><p class="hover:font-bold">Jeudi 24 juillet</p></RouterLink>
@@ -87,48 +55,10 @@
     </div>
 
     <div class="flex flex-wrap justify-between m-32">
-      <router-link to="/PetitBiscuit">
-        <img src="../assets/Medias/biscuit.png" alt="Petit Biscuit">
-        <div class="flex justify-center items-center">
-              <p class="text-white sm:text-1xl md:text-3xl lg:text-4xl font-black m-3">Petit Biscuit</p>
-          </div>
-          <div class="flex justify-center items-center">
-              <div class="squared-full w-2/6 h-1 m-4 bg-indigo-500"></div>
-          </div>
-        <div class="ml-28 mr-20">
-          <BoutonView/> 
-        </div>
-      </router-link>
-      <router-link to="/Sinclar">
-        <img src="../assets/Medias/sinclar.png" alt="Bob sinclar">
-        <div class="flex justify-center items-center">
-              <p class="text-white sm:text-1xl md:text-3xl lg:text-4xl font-black m-3">Bob Sinclar</p>
-          </div>
-          <div class="flex justify-center items-center">
-              <div class="squared-full w-2/6 h-1 m-4 bg-indigo-500"></div>
-          </div>
-        <div class="ml-28 mr-20">
-          <BoutonView/> 
-        </div>
-      </router-link>
-    </div>
-    <div class="flex flex-wrap justify-between m-32">
       <router-link to="/Skrillex">
         <img src="../assets/Medias/Alesso.png" alt="Alesso">
         <div class="flex justify-center items-center">
               <p class="text-white sm:text-1xl md:text-3xl lg:text-4xl font-black m-3">Alesso</p>
-          </div>
-          <div class="flex justify-center items-center">
-              <div class="squared-full w-2/6 h-1 m-2 bg-indigo-500"></div>
-          </div>
-        <div class="ml-28 mr-20">
-          <BoutonView/> 
-        </div>
-      </router-link>
-      <router-link to="/Skrillex">
-        <img src="../assets/Medias/skrillex.png" alt="Skrillex">
-        <div class="flex justify-center items-center">
-              <p class="text-white sm:text-1xl md:text-3xl lg:text-4xl font-black m-3">Skrillex</p>
           </div>
           <div class="flex justify-center items-center">
               <div class="squared-full w-2/6 h-1 m-2 bg-indigo-500"></div>

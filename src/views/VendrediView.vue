@@ -60,45 +60,6 @@
     </div>
 
     <div class="flex flex-wrap justify-between m-32">
-      <router-link to="/DavidGuetta">
-        <img src="../assets/Medias/Guetta.png" alt="David Guetta">
-          <div class="flex justify-center items-center">
-              <p class="text-white sm:text-1xl md:text-3xl lg:text-4xl font-black m-3">David Guetta</p>
-          </div>
-          <div class="flex justify-center items-center">
-              <div class="squared-full w-2/6 h-1 m-4 bg-indigo-500"></div>
-          </div>
-        <div class="ml-28 mr-20">
-          <BoutonView/> 
-        </div>
-      </router-link>
-      <router-link to="/Diplo">
-        <img src="../assets/Medias/Diplo.png" alt="Diplo">
-        <div class="flex justify-center items-center">
-              <p class="text-white sm:text-1xl md:text-3xl lg:text-4xl font-black m-3">Diplo</p>
-          </div>
-          <div class="flex justify-center items-center">
-              <div class="squared-full w-2/6 h-1 m-4 bg-indigo-500"></div>
-          </div>
-        <div class="ml-28 mr-20">
-          <BoutonView/> 
-        </div>
-      </router-link>
-    </div>
-
-    <div class="flex flex-wrap justify-between m-32">
-      <router-link to="/PetitBiscuit">
-        <img src="../assets/Medias/biscuit.png" alt="Petit Biscuit">
-        <div class="flex justify-center items-center">
-              <p class="text-white sm:text-1xl md:text-3xl lg:text-4xl font-black m-3">Petit Biscuit</p>
-          </div>
-          <div class="flex justify-center items-center">
-              <div class="squared-full w-2/6 h-1 m-4 bg-indigo-500"></div>
-          </div>
-        <div class="ml-28 mr-20">
-          <BoutonView/> 
-        </div>
-      </router-link>
       <router-link to="/Sinclar">
         <img src="../assets/Medias/sinclar.png" alt="Bob sinclar">
         <div class="flex justify-center items-center">
@@ -112,32 +73,7 @@
         </div>
       </router-link>
     </div>
-    <div class="flex flex-wrap justify-between m-32">
-      <router-link to="/Skrillex">
-        <img src="../assets/Medias/Alesso.png" alt="Alesso">
-        <div class="flex justify-center items-center">
-              <p class="text-white sm:text-1xl md:text-3xl lg:text-4xl font-black m-3">Alesso</p>
-          </div>
-          <div class="flex justify-center items-center">
-              <div class="squared-full w-2/6 h-1 m-2 bg-indigo-500"></div>
-          </div>
-        <div class="ml-28 mr-20">
-          <BoutonView/> 
-        </div>
-      </router-link>
-      <router-link to="/Skrillex">
-        <img src="../assets/Medias/skrillex.png" alt="Skrillex">
-        <div class="flex justify-center items-center">
-              <p class="text-white sm:text-1xl md:text-3xl lg:text-4xl font-black m-3">Skrillex</p>
-          </div>
-          <div class="flex justify-center items-center">
-              <div class="squared-full w-2/6 h-1 m-2 bg-indigo-500"></div>
-          </div>
-        <div class="ml-28 mr-20">
-          <BoutonView/> 
-        </div>
-      </router-link>
-    </div>
+ 
 
     <div class="flex items-center justify-center">
     <div class="rounded-full m-12 w-3/4 h-2 bg-white"></div>
