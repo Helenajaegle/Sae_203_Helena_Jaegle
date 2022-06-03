@@ -23,23 +23,48 @@
     </div>
     
   <div class="flex items-center justify-between m-10">
-    <div class="flex items-center">
-      <img class="w-96 gap-x-4 hover:opacity-50" src="../assets/Medias/Festival.png" alt="Le festival">
-    </div>
+    <RouterLink to="/festival">
+      <figure class="relative w-auto h-64">
+        <img src="../assets/Medias/Festival.png" alt="Image du festival" class="h-64 w-96 rounded-md object-cover">
+          <figcaption class="absolute bottom-0 left-0 flex h-full items-end justify-between p-10 duration-300 md:opacity-0 md:hover:opacity-100 bg-slate-100">
+            <div class="flex flex-col gap-6">
+              <p class="font-mulish text-3xl uppercase">Le festival</p>
+                <div class="flex justify-center items-center">
+                  <ChevronDoubleUpIcon class="stroke-black w-6"></ChevronDoubleUpIcon>
+                </div>
+            </div>
+          </figcaption>
+      </figure>
+    </RouterLink>
 
-    <div class="flex items-center">
-      <img class="w-96 gap-x-4 hover:opacity-50 rounded-md" src="../assets/Medias/Programme.png" alt="Le programme">
-    </div>
+  <RouterLink to="/concerts">
+      <figure class="relative w-auto h-64">
+        <img src="../assets/Medias/Billeterie.png" alt="Image du festival" class="h-64 w-96 rounded-md object-cover">
+          <figcaption class="absolute bottom-0 left-0 flex h-full items-end justify-between p-10 duration-300 md:opacity-0 md:hover:opacity-100 bg-slate-100">
+            <div class="flex flex-col gap-6">
+              <p class="font-mulish text-3xl uppercase">Les concerts</p>
+                <div class="flex justify-center items-center">
+                  <ChevronDoubleUpIcon class="stroke-black w-6"></ChevronDoubleUpIcon>
+                </div>
+            </div>
+          </figcaption>
+      </figure>
+    </RouterLink>
 
-    <div class="flex items-center">
-      <img class="w-96 gap-x-4 hover:opacity-50 rounded-md" src="../assets/Medias/Billeterie.png" alt="la billeterie">
-     </div>
-  </div>
+  <RouterLink to="/programmation">
+      <figure class="relative w-auto h-64">
+        <img src="../assets/Medias/Programme.png" alt="Image du festival" class="h-64 w-96 rounded-md object-cover">
+          <figcaption class="absolute bottom-0 left-0 flex h-full items-end justify-between p-10 duration-300 md:opacity-0 md:hover:opacity-100 bg-slate-100">
+            <div class="flex flex-col gap-6">
+              <p class="font-mulish text-3xl uppercase">Le programme</p>
+                <div class="flex justify-center items-center">
+                  <ChevronDoubleUpIcon class="stroke-black w-6"></ChevronDoubleUpIcon>
+                </div>
+            </div>
+          </figcaption>
+      </figure>
+    </RouterLink>
 
-  <div class="text-white sm:text-1xl md:text-2xl lg:text-2xl flex justify-between items-center ml-40 mr-40">
-    <p>Le festival</p>
-    <p>Programmation</p>
-    <p>Les concerts</p>
   </div>
 
   <div class="flex items-center justify-center">
@@ -65,3 +90,10 @@
   </footer>
 
 </template>
+
+<script>
+import { ChevronDoubleUpIcon } from "@heroicons/vue/outline";
+export default {
+  components: { ChevronDoubleUpIcon },
+};
+</script>
