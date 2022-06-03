@@ -15,9 +15,9 @@
     </div>
 
     <div class="flex float-left m-10 gap-x-4">
-      <img src="../assets/Medias/Youtube.png" alt="Youtube">
-      <img src="../assets/Medias/twitter.png" alt="Twitter">
-      <img src="../assets/Medias/instagram.png" alt="Instagram">
+      <img src="../../assets/Medias/Youtube.png" alt="Youtube">
+      <img src="../../assets/Medias/twitter.png" alt="Twitter">
+      <img src="../../assets/Medias/instagram.png" alt="Instagram">
     </div>
   </footer>
 </template>
