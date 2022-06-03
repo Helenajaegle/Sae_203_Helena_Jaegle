@@ -1,23 +1,24 @@
 <template>
-  <div class="flex items-center m-10 text-white">
-      <RouterLink to="/accueil"><p class="text-2xl uppercase text-center m-5 hover:font-bold">Accueil</p></RouterLink>
-      <p>|</p>
-      <RouterLink to="/programmation"><p class="text-2xl uppercase text-center m-5 hover:font-bold">Programmation</p></RouterLink>
-      <p>|</p>
-      <RouterLink to="/concerts"><p class="text-2xl uppercase text-center m-5 hover:font-bold">Concerts</p></RouterLink>
-      <p>|</p>
-      <RouterLink to="/festival"><p class="text-2xl uppercase text-center m-5 hover:font-bold">Festival</p></RouterLink>
-    </div>
+  <div class="flex items-center text-white m-3">
+        <RouterLink to="/accueil"><p class="sm:text-xl md:text-xl lg:text-xl uppercase text-center m-5 hover:font-bold">Accueil</p></RouterLink>
+        <p class="sm:text-xl md:text-xl lg:text-xl">|</p>
+        <RouterLink to="/programmation"><p class="sm:text-xl md:text-xl lg:text-xl uppercase text-center m-5 hover:font-bold">Programmation</p></RouterLink>
+        <p class="sm:text-xl md:text-xl lg:text-xl">|</p>
+        <RouterLink to="/concerts"><p class="sm:text-xl md:text-xl lg:text-xl uppercase text-center m-5 hover:font-bold">Concerts</p></RouterLink>
+        <p class="sm:text-xl md:text-xl lg:text-xl">|</p>
+        <RouterLink to="/festival"><p class="sm:text-xl md:text-xl lg:text-xl uppercase text-center m-5 hover:font-bold">Festival</p></RouterLink>
+      </div>
 
-  <div class="bg-white p-2"></div>
+  <div class="bg-white h-1"></div>
 
   <div class="text-white">
     <div class="flex flex-col items-center justify-center px-8 py-10 text-center">
       <h1 class="font-press-start-2p text-3xl text-white uppercase">Guide de style</h1>
       <ArquestPremium />
     </div>
+
     <!-- Couleurs -->
-    <h1 class="bg-blue-900 p-2 text-center text-2xl text-white">Couleurs</h1>
+    <h1 class="bg-white p-2 text-center text-2xl text-black">Couleurs</h1>
     <div class="m-2 flex flex-row items-center justify-center py-6 sm:flex-col">
       <div class="flex flex-col justify-center gap-5 p-3 sm:flex-row">
         <span class="h-10 w-20 bg-white"></span>
@@ -27,15 +28,15 @@
       </div>
     </div>
     <!-- Typographie -->
-    <h1 class="bg-blue-900 p-2 text-center text-2xl text-white">Typographie</h1>
+    <h1 class="bg-white p-2 text-center text-2xl text-black">Typographie</h1>
     <div class="m-2 flex flex-col items-center gap-5 py-6 text-center text-white">
       <h1 class="text-4xl font-aclonica font-bold">Alpin Days</h1>
       <h2 class="text-2xl font-raleway">Programmation</h2>
       <h3 class="text-xl font-roboto">Contenu</h3>
     </div>
     <!-- Icônes -->
-    <h1 class="bg-blue-900 p-2 text-center text-2xl text-white">Icônes</h1>
-    <div class="flex justify-center gap-10 fill-white">
+    <h1 class="bg-white p-2 text-center text-2xl text-black">Icônes</h1>
+    <div class="flex justify-center gap-10 fill-white m-10">
       <div>
         <div class="flex justify-center gap-2 p-2">
         <div class="flex justify-center gap-2 p-2">
@@ -51,13 +52,15 @@
       </div>
     </div>
 </div>
+</div>
     <!-- Composants -->
-      <h1 class="bg-blue-900 p-2 text-center text-2xl text-white">Composants</h1>
+      <h1 class="bg-white p-2 text-center text-2xl text-black">Composants</h1>
           <div class="flex justify-center items-center m-10">
             <Bouton></Bouton>
           </div>
-      </div>
-      
+          <div class="flex justify-center items-center m-10">
+            <AccueilCardsView></AccueilCardsView>
+          </div>   
 
 </template>
 
@@ -80,6 +83,7 @@ import Bouton from "../components/Boutons/BoutonView.vue";
 import Menu from "../components/Boutons/MenuView.vue"
 
 import FooterView from "../components/Layout/FooterView.vue";
+import AccueilCardsView from "../components/Cards/AccueilCardsView.vue";
 
 
 export default {
@@ -88,14 +92,15 @@ export default {
     InstagramIcon,
     TwitterIcon,
     YoutubeIcon,
-    ChevronDoubleUpIcon, 
-    Bouton, 
+    ChevronDoubleUpIcon,
+    Bouton,
     FooterView,
     ArrowCircleDownIcon,
     XIcon,
     CalendarIcon,
     LocationMarkerIcon,
     MenuAlt1Icon,
+    AccueilCardsView
 },
 };
 </script>
