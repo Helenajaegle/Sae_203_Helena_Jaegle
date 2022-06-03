@@ -21,12 +21,12 @@
     </div>
 
 
-    <div class="text-white">
-      <h1 class="sm:text-2xl md:text-4xl lg:text-6xl font-bold text-center m-5">L'histoire du festival</h1>
+    <div class="text-white mt-96">
+      <h1 class="sm:text-xl md:text-2xl lg:text-4xl font-bold text-center">L'histoire du festival</h1>
 
-      <div class="flex">
-        <img class="objet-cover w-full m-0" src="../assets/Medias/forme_orange.png" alt="Forme orange">
-        <p class="sm:text-2xl md:text-3xl lg:text-4xl text-center m-64 absolute text-black">Fidèle à son esprit festif et original, Alpindays se positionne et s’illustre comme un moment d’évasion et de dépaysement au plein milieu de la montagne.</p>
+      <div class="flex mt-32">
+        <img class="objet-cover w-full h-96 m-0" src="../assets/Medias/forme_orange.png" alt="Forme orange">
+        <p class="sm:text-2xl md:text-2xl lg:text-3xl text-center m-48 absolute text-black">Fidèle à son esprit festif et original, Alpindays se positionne et s’illustre comme un moment d’évasion et de dépaysement au plein milieu de la montagne.</p>
       </div>
 
         <p class="text-2xl text-center m-40">Depuis 4 ans seulement, ce sont déjà 687 concerts revendiqué, ayant fait le plaisir de près de 213.000 festivaliers, de tous âges, tous horizons et de toutes nationalités !  </p>
@@ -50,22 +50,21 @@
         <p class="text-2xl m-52">Depuis 2 ans maintenant le festival organise un défilé le dernier jour du festival. Venez admirez les nombreux chars plus impressionnants les uns que les autres ! </p>
     </div>
 
-<!--
+
     <div class="relative flex w-full snap-x overflow-x-auto pb-1">
-      <div class="w-full shrink-0 rounded-lg shadow-xl">
-        <img class="w-4/6" src="../assets/Medias/festival_3.png" alt="image 1" />
+      <div class="w-full shrink-4 rounded-lg shadow-xl">
+        <img class="w-6/6" src="../assets/Medias/festival_3.png" alt="image 1" />
       </div>
-      <div class="w-full shrink-0 rounded-lg shadow-xl">
-        <img class="w-4/6" src="../assets/Medias/festival_4.png" alt="image 2" />
+      <div class="w-full shrink-4 rounded-lg shadow-xl">
+        <img class="w-6/6" src="../assets/Medias/festival_4.png" alt="image 2" />
       </div>
-      <div class="w-full shrink-0 rounded-lg shadow-xl">
-        <img class="w-4/6" src="../assets/Medias/Festival_5.png" alt="image 3" />
+      <div class="w-full shrink-4 rounded-lg shadow-xl">
+        <img class="w-6/6" src="../assets/Medias/Festival_5.png" alt="image 3" />
       </div>
-      <div class="w-full shrink-0 rounded-lg shadow-xl">
-        <img class="w-4/6" src="../assets/Medias/Festival_6.png" alt="image 3" />
+      <div class="w-full shrink-4 rounded-lg shadow-xl">
+        <img class="w-6/6" src="../assets/Medias/Festival_6.png" alt="image 3" />
       </div>
     </div>
--->
 
     <p class="text-white font-black text-4xl text-center m-32">Voir plus sur la musique ! </p>
     

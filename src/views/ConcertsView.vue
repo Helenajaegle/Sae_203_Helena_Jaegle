@@ -49,11 +49,11 @@
   <div class="mt-44">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.7246088289535!2d6.631240215655728!3d45.41489264475302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478978ac4a4f99df%3A0xa4d5fa638bd53541!2sCourchevel%20Aventure!5e0!3m2!1sfr!2sfr!4v1654253903435!5m2!1sfr!2sfr" width="1600" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
-  <p class="text-white text-center sm:text-1xl md:text-2xl lg:text-2xl m-3">C’est ici que vous nous trouverez !</p>
+  <p class="text-white text-center sm:text-1xl md:text-2xl lg:text-2xl m-20">C’est ici que vous nous trouverez !</p>
 
   
      <div class="flex items-center justify-center">
-        <div class="rounded-full m-32 w-2/3 h-2 bg-white"></div>
+      <div class="rounded-full m-12 w-3/4 h-2 bg-white"></div>
     </div>
 
      <footer>
